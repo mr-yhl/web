@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>04-扩展选择器</title>
+        <style>
+            span,label{
+                font-size: 20px;
+            }
+
+            div>span{
+                color: red;
+            }
+
+            div span{
+                border: 1px solid black;
+            }
+
+            input[name="username"]{
+                background-color: gold;
+            }
+        </style>
+    </head>
+    <body>
+        <!--
+        1）并集选择器
+            语法：选择器1,选择器2,选择器3....{css样式}
+
+        2）父子选择器
+            语法：父选择器 > 子选择器{css样式}
+
+        3）后代选择器
+            语法：父选择器 后代选择器{css样式}
+
+        4)属性选择器
+            语法：标签[属性名="属性值"]{css样式}
+    -->
+
+        <div>
+            <span>烟幕弹</span>
+            <p>
+                <span id="gbl">高爆雷</span>
+            </p>
+        </div>
+        <span id="jjx">急救箱</span>
+        <br/>
+        <label>姓名</label>
+        <input type="text" name="username" value="Jack"/><br/>
+        <label>密码</label>
+        <input type="password" name="password" value="123456"/><br/>
+
+    </body>
+</html>
