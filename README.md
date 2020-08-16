@@ -19,7 +19,7 @@ dayXX_xxx_xxx为文件夹下是代码也有笔记存在,根据readme文档的介
   + 三种引入方法
   + 选择器
 
-## [day02css与js基础]()
+## [day02css与js基础](https://github.com/mr-yhl/web/tree/master/day02_css%26js)
 
 今天的内容讲的是css的基础内容,与js的入门基础内容,包括引入方法,函数等内容.
 
