@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>03-JS变量声明</title>
+
+    </head>
+    <body>
+        <!--
+        javaScript：目前使用的ECMAScript 6的版本（优化了很多问题）
+        之前js定义变量的声明符 var，这哥们天生残疾，有很多设计缺陷，坑了不少前端好汉...
+        es6版本推出了新的变量声明符 let（变量） const（常量）
+        -->
+
+        <script>
+            // String str = "用心做教育";
+            let str = "用心做教育";
+            console.log(str);
+            // int i = 1314;
+            let i = 1314;
+            console.log(i);
+            // double d = 521.1314;
+            let d = 521.1314;
+            console.log(d);
+            // final Integer PI = 3.14;
+            const PI = 3.14;
+            console.log(PI);
+            // boolean b = true;
+            let b = true;
+            console.log(b);
+            console.log('-------------------------------')
+            // 让大家感知弱类型脚本语言
+            let a;
+            console.log(a);
+            a = null;
+            console.log(a);
+            a = "哈哈";
+            console.log(a);
+            a = 123;
+            console.log(a);
+            a = true;
+            console.log(a);
+            a = new Date();
+            console.log(a);
+        </script>
+    </body>
+</html>

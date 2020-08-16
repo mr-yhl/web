@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b8f99f9-6d77-4d63-9626-d1f03931897d" name="Default Changelist" comment="" />
+    <list default="true" id="0b8f99f9-6d77-4d63-9626-d1f03931897d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/01_css样式/01-字体和文本属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/01_css样式/02-案例：公司简介.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/01_css样式/03-背景属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/01_css样式/04-显示属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/01_css样式/05-浮动属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/01_css样式/06-盒子模型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/02_黑马旅游网/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/02_黑马旅游网/img/footer_service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/02_黑马旅游网/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/02_黑马旅游网/img/register_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/02_黑马旅游网/img/top_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/02_黑马旅游网/注册页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/03_js入门/01-HTML引入JS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/03_js入门/02-JS三种输出方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/03_js入门/03-JS变量声明.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/03_js入门/04-JS数据类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/04_js基础/01-JS运算符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/04_js基础/02-条件判断.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/04_js基础/03-循环语句.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/04_js基础/04-普通函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/04_js基础/05-匿名函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/04_js基础/06-案例：轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/04_js基础/07-常见事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/04_js基础/08-事件绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/04_js基础/09-案例：页面交互.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/img/girl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_css&amp;js/js/myjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +49,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1g74z4Edkx9D2hYeQEhZdvNBbU3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,17 +76,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day01_html&amp;css/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day02_css&amp;js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\code\web\day02_css&amp;js" />
+      <recent name="F:\code\web\day02_css&amp;js\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\web\day02_css&amp;js" />
       <recent name="F:\code\web\day01_html&amp;css\img" />
       <recent name="F:\code\web\day01_html&amp;css" />
     </key>
@@ -50,6 +108,15 @@
       <option name="presentableId" value="Default" />
       <updated>1597452556013</updated>
       <workItem from="1597452559899" duration="14633000" />
+      <workItem from="1597491933303" duration="5316000" />
+      <workItem from="1597535956245" duration="2229000" />
+      <workItem from="1597539700180" duration="767000" />
+      <workItem from="1597542799282" duration="915000" />
+      <workItem from="1597543771642" duration="139000" />
+      <workItem from="1597543969960" duration="36000" />
+      <workItem from="1597544031790" duration="50000" />
+      <workItem from="1597544108370" duration="5006000" />
+      <workItem from="1597566614653" duration="3871000" />
     </task>
     <servers />
   </component>
@@ -57,17 +124,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="722" y="94" key="#Project_Structure" timestamp="1597452567973">
+    <state x="722" y="94" key="#Project_Structure" timestamp="1597539531976">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="722" y="94" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1597452567973" />
-    <state x="398" y="148" key="SettingsEditor" timestamp="1597472540244">
+    <state x="722" y="94" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1597539531976" />
+    <state x="393" y="104" key="SettingsEditor" timestamp="1597547703831">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="398" y="148" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1597472540244" />
-    <state x="99" y="23" key="new project wizard" timestamp="1597452724650">
+    <state x="393" y="104" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1597547703831" />
+    <state x="332" y="76" key="new project wizard" timestamp="1597547604722">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="99" y="23" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1597452724650" />
+    <state x="332" y="76" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1597547604722" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

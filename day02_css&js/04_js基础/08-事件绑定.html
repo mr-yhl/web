@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>08-事件绑定</title>
+
+    </head>
+    <body>
+        <input type="button" value="普通函数" onclick="fun1()"> <br>
+        <input type="button" value="匿名函数" id="btn"> <br>
+        <input type="text" name="username">
+        <input type="text" name="username">
+
+        <script>
+            // 普通函数
+            function fun1() {
+                alert('我是普通函数...')
+            }
+
+            document.getElementsByName("username")[0].onfocus=function(){
+                this.value="嘿嘿";
+            }
+            document.getElementsByName("username")[1].onfocus=function(){
+                this.value="111111";
+            }
+            // 匿名函数
+            /* // 1.获取button按钮的js对象
+             let btn = document.getElementById('btn');
+             // 2.给onclick属性绑定匿名函数
+             btn.onclick=function () {
+                 alert('我是匿名函数')
+             }
+         */
+            document.getElementById('btn').onclick=function () {
+                alert('我是匿名函数')
+            }
+        </script>
+    </body>
+</html>

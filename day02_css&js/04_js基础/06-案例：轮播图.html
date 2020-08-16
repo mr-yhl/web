@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>06-案例：轮播图</title>
+        <style>
+            div {
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--
+        轮播图
+
+        预习:
+            setInterval(函数,间隔时间) 每隔固定间隔时间(毫秒)执行一次函数
+            document.getElementById(id属性值) 获得指定id的标签对象
+
+        -->
+        <div>
+            <img id="myImg" src="../img/0.jpg" width="500px">
+        </div>
+        <script>
+            // 定时器练习
+            // setInterval('alert("哈哈")',2000)
+
+            // dom练习
+            /* let img = document.getElementById('myImg');
+             console.log(img);
+             img.src='../img/2.jpg';*/
+
+            // 案例
+            // 1.获取img标签的js对象
+            let img = document.getElementById("myImg");
+            // 2.定义函数修改src属性
+            let num = 1;
+
+            function change() {
+                num++;
+                if (num > 5)
+                    num = 1;
+                img.src='../img/'+num+'.jpg';
+            }
+            // 3.定时器
+            setInterval('change()',3000);
+
+        </script>
+
+    </body>
+</html>

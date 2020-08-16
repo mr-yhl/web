@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>04-普通函数</title>
+
+    </head>
+    <body>
+        <script>
+            /*
+            语法：
+                function 函数名(参数1,参数2){
+                    return xxx;
+                }
+
+            调用：
+                函数名(实际参数1,实际参数2);
+
+           特点：
+                1.声明的函数不需要定义返回值
+                2.声明的函数形参不需要使用变量修饰符声明
+                3.如果有返回值就加上return
+                4.js没有方法重载，重名的会被覆盖...
+                5.js的函数参数个数不太严谨【了解】
+                6.所有的函数体内置了arguments数组，用于接收调用时传递的实际参数
+                7.js函数支持可变参数
+            */
+            // 两个数求和
+            function sum(a, b) {
+                return a + b;
+            }
+            // 三个数求和
+            function sum(a, b, c) {
+                console.log(arguments);
+                return a + b + c;
+            }
+
+            // 求N个数的和
+            function sum(...args){
+                console.log(args);
+
+                let result = 0;
+                for (let arg of args) {
+                    result+= arg;
+                }
+                return result;
+            }
+
+
+            // NaN not a number 这不是一个数
+            let result = sum(1, 2, 3, 4);
+            console.log(result);
+        </script>
+    </body>
+</html>

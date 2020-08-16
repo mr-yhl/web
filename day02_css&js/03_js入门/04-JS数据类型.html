@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>04-JS数据类型</title>
+
+    </head>
+    <body>
+        <script>
+            /*1.基本（原始）数据类型
+            string：字符串（单引号、双引号）
+            number：数值（整型、浮点）
+            boolean：布尔
+            undefined：未定义
+            2.引用数据类型
+            null：空（bug）
+            new 出来的东东
+            typeof 关键字判断变量的数据类型*/
+            let str = 'c';
+            console.log(typeof str); // string
+            let i = 1314.1;
+            console.log(typeof i); // number
+            let b = true;
+            console.log(typeof b); // boolean
+            let u;
+            console.log(typeof u); // undefined
+            let n = null;
+            console.log(typeof n); // object
+            let date = new Date();
+            console.log(typeof date); // object
+
+
+        </script>
+
+    </body>
+</html>

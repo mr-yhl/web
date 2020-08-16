@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>01-HTML引入JS</title>
+
+    </head>
+    <body>
+        <!--
+        HTML引入JS有二种方式
+        内部脚本
+        语法：<script type="text/javascript"> js代码 </script>
+        作用范围：当前页面
+        外部脚本
+        语法：<script type="text/javascript" src="外部js文件"></script>
+        作用范围：引入的所有html页面
+        注意事项：如果script标签引入了外部脚本，那么标签体不能自闭合，而且不允许有js代码
+        扩展:在开发时 style和link标签通常在head头部，script标签在body尾部...
+        -->
+
+        <script>
+            document.write('<h1>你好,这是内部脚本</h1>');
+        </script>
+        <script src="../js/myjs.js"></script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>09-浮动属性</title>
+        <style>
+            .box {
+                width: 150px;
+                height: 150px;
+                border: 1px solid red;
+                text-align: center;
+            }
+
+            #long {
+                float: left; /*左浮动*/
+            }
+
+            #hu {
+                float: right; /*右浮动*/
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="box" id="long">左青龙</div>
+        <div class="box" id="hu">右白虎</div>
+        <div style="clear: both"></div> <!--清除浮动效果（墙）-->
+        <div class="box">最后砍成米老鼠</div>
+    </body>
+</html>

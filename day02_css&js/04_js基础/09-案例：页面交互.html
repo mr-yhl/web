@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>09-案例：页面交互</title>
+
+</head>
+<body>
+<!--
+常用事件
+    1. onload 页面加载完成
+    2. onfocus 获取焦点
+    3. onblur 失去焦点
+    4. onchange 表单控件的值改变时
+    5. onclick 鼠标单击
+
+-->
+
+姓名 <input type="text" id="username"><br/>
+学历
+<select name="edu" id="edu">
+    <option value="0">请选择</option>
+    <option value="1">本科</option>
+    <option value="2">大专</option>
+</select>
+<br/>
+<button id="btn" >按钮</button>
+<script >
+    //1. onload 页面加载完成
+    window.onload = function () {  // 当前窗口加载完毕后，触发的事件，执行函数完成某些功能
+        //  alert('页面加载完毕。。。')
+    }
+
+    // alert('haha')
+
+    //2. onfocus 获取焦点
+    document.getElementById('username').onfocus = function () {
+        //  document.getElementById('username').value='哈哈';
+        // js对象绑定事件时，也有this的概念，this表示当前的js对象
+        this.value = '呵呵';
+    }
+
+    //3. onblur 失去焦点
+    document.getElementById('username').onblur = function () {
+        this.value = ''
+    }
+
+    //4. onchange 表单控件的值改变时
+    document.getElementById('edu').onchange = function () {
+        alert(this.value)
+    }
+
+
+    //5. onclick 鼠标单击
+    document.getElementById('btn').ondblclick = function () {
+        alert('哎呀妈呀，我被点了》。。')
+    }
+
+
+    // 6. onsubmit 表单事件
+    document.getElementById('myForm').onsubmit=function () {
+
+
+        // return true; // 表单正常提交
+        return false;// 表单拦截
+    }
+</script>
+</body>
+</html>
