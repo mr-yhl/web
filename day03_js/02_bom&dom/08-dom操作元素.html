@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>08-dom操作元素</title>
+
+    </head>
+    <body>
+
+        <ul id="star">
+            <li>古力娜扎</li>
+            <li>迪丽热巴</li>
+        </ul>
+        <script>
+            // 添加一个新列表项
+            // 方式一：
+            // 1.创建 li标签
+            let li = document.createElement('li');
+
+            // 2.设置文本
+            li.innerText = '萨瓦快递';
+
+            // 3.挂靠在 dom的 ul下面
+            document.getElementById('star').appendChild(li);
+
+
+            // 方式二： 推荐
+            document.getElementById('star').innerHTML += '<li>马尔扎哈</li>'
+        </script>
+    </body>
+</html>

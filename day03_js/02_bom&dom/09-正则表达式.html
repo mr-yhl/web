@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>09-正则表达式</title>
+
+    </head>
+    <body>
+
+
+        <script>
+
+        </script>
+
+        <script>
+            // 1.创建一个校验手机号的正则表达式，要求：11位、1开头，第二位：3456789
+            // let reg = new RegExp('^1[3456789]\\d{9}$')
+            let reg = /^1[3456789]\d{9}$/;
+
+            // 2.校验用户输入的值
+            let value = '15933016675';
+            console.log(reg.test(value));
+
+
+        </script>
+
+        <script>
+
+            // 以邮箱举例
+            /*
+                ys@itcast.cn
+                ys@163.com
+
+                com
+                cn
+                com.cn
+             */
+            let emailReg = /^([a-z0-9\_.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
+            console.log(emailReg.test('y&s@itcast.cn'));
+        </script>
+
+    </body>
+</html>

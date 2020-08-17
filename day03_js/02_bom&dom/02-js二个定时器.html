@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>02-js二个定时器</title>
+
+</head>
+<body>
+<!--
+
+JS两个定时器
+    周期性定时器
+       创建： let interval = setInterval('js代码',毫秒值)
+       销毁：clearInterval(interval);
+    一次性定时器
+        创建：let timeout = setTimeout('js代码',毫秒值);
+        销毁：clearTimeout(timeout);
+-->
+
+<button id="btn1">取消打印时间</button>
+<button id="btn2">取消打印自然数</button>
+
+<script>
+    let btn1 = document.getElementById("btn1");
+    let btn2 = document.getElementById("btn2");
+
+    // 1. 定时5秒之后在控制台打印当前时间
+    let timeout = setTimeout(`alert(new Date().toLocaleString())`,2000);
+    // 2. 点击按钮取消打印时间
+    btn1.onclick=function () {
+        clearTimeout(timeout);
+    }
+    // 3. 每隔2秒在控制台打印递增自然数
+    let num = 1;
+    let interval = setInterval(`console.log(num++)`,2000);
+
+    // 4. 点击按钮取消打印自然数
+    btn2.onclick=function () {
+        clearInterval(interval);
+    }
+</script>
+</body>
+</html>

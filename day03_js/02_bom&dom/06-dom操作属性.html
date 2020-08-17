@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>06-dom操作属性</title>
+
+    </head>
+    <body>
+        <form action="#" method="get">
+            姓名 <input type="text" name="username" id="username" value="德玛西亚"/> <br/>
+
+            爱好
+            <input type="checkbox" name="hobby" value="smoke">抽烟
+            <input type="checkbox" name="hobby" value="drink">喝酒
+            <input type="checkbox" name="hobby" value="perm">烫头<br/>
+
+            <input type="reset" value="清空按钮"/>
+            <input type="submit" value="提交按钮"/><br/>
+        </form>
+
+        <script>
+            // 1.获取文本框预定义的属性值
+            console.log(document.getElementById('username').value);
+            document.getElementById('username').value = '草丛伦';
+
+            // 2.给文本框设置自定义属性（了解）
+            document.getElementById('username').setAttribute("data-msg", '喜欢大宝剑...')
+
+            // 3.获取文本框自定义属性（了解）
+            console.log(document.getElementById('username').getAttribute("data-msg"));
+            // 4.移出文本框自定义属性（了解）
+            document.getElementById('username').removeAttribute("data-msg");
+
+
+        </script>
+    </body>
+</html>

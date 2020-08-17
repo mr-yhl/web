@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>案例-省市级联</title>
+
+</head>
+<body>
+
+<select id="provinceId" style="width:150px">
+    <option value="">----请-选-择-省----</option>
+    <option value="0">北京</option>
+    <option value="1">河北</option>
+    <option value="2">辽宁</option>
+    <option value="3">天津</option>
+</select>
+<select id="cityId" style="width:150px">
+    <option value="">----请-选-择-市----</option>
+</select><!--
+省市级联
+	1. 页面加载完成后自动装载省数据
+	2. 当选中省时,装载该省的市数据
+-->
+<script type="text/javascript">
+    // 准备数据
+    var data = new Array();
+    data[0] = ['顺义区', '昌平区', '朝阳区'];
+    data[1] = ["保定", "石家庄", "廊坊"];
+    data[2] = ["沈阳", "铁岭", "抚顺"];
+    data[3] = ["滨海新区", "宝坻区", "南开区"];
+
+    let provinceSelect = document.getElementById("provinceId");//获取省下拉列表
+    let citySelect = document.getElementById("cityId");//获取市下拉列表
+    provinceSelect.onchange=function () {
+        citySelect.innerHTML=`<option value="">----请-选-择-市----</option>`;
+        let entryValues = this.value;
+        let any = data[entryValues];
+        for (let anys of any){
+            citySelect.innerHTML+=`<option>${anys}</option>`;
+        }
+    }
+
+</script>
+
+</body>
+</html>

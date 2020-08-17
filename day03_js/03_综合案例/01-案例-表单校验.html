@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>注册页面</title>
+        <link rel="stylesheet" href="../css/register.css">
+        <style>
+            span {
+                color: red;
+                font-size: 12px;
+                display: none;
+
+            }
+        </style>
+    </head>
+    <body>
+        <table width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+                <td>
+                    <img src="../img/top_banner.jpg" width="100%" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../img/logo.png" width="100%" alt="">
+                </td>
+            </tr>
+            <tr height="40px" align="center">
+                <td bgcolor="#ffc900">
+                    首页 &emsp;&emsp;&emsp;&emsp;&emsp;
+                    周边游 &emsp;&emsp;&emsp;&emsp;&emsp;
+                    山水游 &emsp;&emsp;&emsp;&emsp;&emsp;
+                    古镇游 &emsp;&emsp;&emsp;&emsp;&emsp;
+                    出境游 &emsp;&emsp;&emsp;&emsp;&emsp;
+                    国内游 &emsp;&emsp;&emsp;&emsp;&emsp;
+                    港澳游 &emsp;&emsp;&emsp;&emsp;&emsp;
+                    台湾游 &emsp;&emsp;&emsp;&emsp;&emsp;
+                    5A景点游 &emsp;&emsp;&emsp;&emsp;&emsp;
+                    全球自由行 &emsp;&emsp;&emsp;&emsp;&emsp;
+                </td>
+            </tr>
+            <tr height="500px">
+                <td>
+                    <div class="content">
+                        <div class="rg_form">
+                            <div class="rg_form_left">
+                                <p style="color: #ffc900;font-size: 20px;">用户注册</p>
+                                <p style="color: #aeb2c9;font-size: 20px">USER REGISTER</p>
+                            </div>
+                            <div class="rg_form_center">
+                                <form action="#" method="get" id="myForm">
+                                    <table>
+                                        <tr>
+                                            <td class="td_left">用户名</td>
+                                            <td>
+                                                <input type="text" id="username"  placeholder="请输入账号">
+                                                <span id="userInfo">用户名不合法</span>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="td_left">手机号</td>
+                                            <td>
+                                                <input type="text" id="telephone" name="telephone" placeholder="请输入手机号">
+                                                <span id="telInfo">手机号不合法</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td_left">密码</td>
+                                            <td>
+                                                <input type="password" id="password" name="password"
+                                                       placeholder="请输入密码">
+                                                <span id="pwdInfo">密码不合法</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td_left">验证码</td>
+                                            <td>
+                                                <input type="text" name="smsCode" id="smsCode" placeholder="请输入验证码">
+                                                <a href="#">发送手机验证码</a>
+                                                <span id="codeInfo">验证码不合法</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="2" align="center" width="373">
+                                                <input type="submit" value="注册">
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </form>
+                            </div>
+                            <div class="rg_form_right">
+                                <p>已有账号？<a href="#" style="text-decoration: none;color: #fcb1b1">立即登录</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../img/footer_service.png" width="100%" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffc900" height="50px" align="center">
+                    江苏传智播客教育科技股份有限公司 版权所有Copyright 2006-2020, All Rights Reserved 苏ICP备16007882
+                </td>
+            </tr>
+        </table>
+
+        <script>
+            /*
+               用户名正则，4到16位（字母，数字，下划线，减号）：/^[a-zA-Z0-9_-]{4,16}$/
+               密码正则：必须是包含大小写字母和数字的组合，不能使用特殊字符，长度在6-10之间：/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,10}$/
+               手机号正则：/^1[3456789]\d{9}$/
+               验证码正则：/^\d{6}$/
+
+            */
+            //用户名校验
+            let username = document.getElementById("username");
+            // 准备正则表达式
+            let regExp = /^[a-zA-Z0-9_-]{4,16}$/;
+
+            // 定义函数校验
+            function checkUser() {
+                if (regExp.test(username.value))
+                    document.getElementById("userInfo").style.display = "none";
+                else
+                    document.getElementById("userInfo").style.display = "inline";
+                return regExp.test(username.value);
+            }
+
+            // 文本框绑定事件
+            username.onblur = checkUser;
+
+            // 校验手机号
+            let elementById = document.getElementById("telephone");
+            // 定义正则
+            let regExp1 = /^1[3456789]\d{9}$/;
+
+            // 校验手机号
+            function checkPhone() {
+                let b = regExp1.test(elementById.value);
+                if (b)
+                    document.getElementById("telInfo").style.display = "none";
+                else
+                    document.getElementById("telInfo").style.display = "inline";
+                return b;
+            }
+
+            elementById.onblur = checkPhone;
+
+            // 校验密码框
+            //  获取密码框的js对象
+            let passwordInput = document.getElementById('password');
+            // 指定密码强度正则表达式
+            let pwdReg = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,10}$/;
+            // 定义函数校验密码强度
+            function checkPwd(){
+                let boo = pwdReg.test(passwordInput.value);
+                if(boo){// 隐藏
+                    document.getElementById('pwdInfo').style.display='none';
+                }else{// 显示
+                    document.getElementById('pwdInfo').style.display='inline';
+                }
+                return boo;
+            }
+
+            // 绑定失去焦点事件
+            passwordInput.onblur=checkPwd;
+
+
+            // 验证码校验
+
+            let pwd1 = document.getElementById("smsCode");
+            let regExp2 = /^\d{6}$/;
+            function checkPwd1(){
+                if (regExp2.test(pwd1.value)){
+                    document.getElementById("codeInfo").style.display="none"
+                }else{
+                    document.getElementById("codeInfo").style.display="inline";
+                }
+                return regExp2.test(pwd1.value);
+
+
+            }
+
+
+
+            // 表单校验
+            document.getElementById("myFrom").onsubmit = function () {
+                return checkUser() && checkPhone() && checkPwd() && checkPwd1();
+            }
+        </script>
+    </body>
+</html>

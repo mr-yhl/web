@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>01-字符串</title>
+
+    </head>
+    <body>
+        <!--
+
+        1. 构造字符串对象可以使用
+            双引号,单引号,反引号
+
+        2. 字符串常用方法
+        substring(startIndex,endIndex) [start,end) 字符串截取
+        trim() 去掉左右空格
+        split() 切割字符串，变为数组
+
+        -->
+
+        <script type="text/javascript">
+            // ------------ 1. 构造字符串对象可以使用  双引号,单引号,反引号
+            // 单引号
+            let str1 = '你好';
+            console.log(str1);
+            // 双引号
+            let str2 = "js对象";
+            console.log(str2);
+            // 反引号
+            let str3 = `丹丹`;
+            console.log(str3);
+            // 带占位符
+            let s =`${str1}${str3},欢迎你预览${str2}部分的内容.`
+
+            console.log(s);
+
+            // 教师例子
+            let hero = "蔡文姬";
+            let winRate = 70;
+            // let str = "您选择的英雄是：" + hero + ",它的历史胜率为：" + winRate + "%";
+            let str=`您选择的英雄是：${hero},
+                            它的历史胜
+                            率为${winRate}%`;
+                                        console.log(str);
+
+
+            // ------------ 2. 字符串常用方法
+            let s2= "业精于勤而荒于嬉,行成于思,毁于随   ";
+            let s21= "    业精于勤而荒于嬉,行成于思,毁于随   ";
+            // 截取字符串
+            console.log(s2.substring(5, 8));
+            // 去空格
+            console.log(s21.trim());
+            // 分割为数组
+            console.log(s2.split(","));
+
+
+        </script>
+    </body>
+</html>

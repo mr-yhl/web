@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>05-全局函数</title>
+
+</head>
+<body>
+<!--
+全局函数
+    1. 字符串转为数字
+        parseInt()  转为整型
+        parseFloat() 转为浮点型
+            从第一个字符开始转换，遇到非数值字符停止转换
+
+        NaN：not a number
+
+
+        指定图片、div等等 宽和高
+            300px
+            400px
+
+    2. 对字符串编码和解码
+        浏览器和服务器通信使用http协议，不支持中文和特殊符号
+        现在绝大多数浏览器已经支持自动编码和解码了：chrome、Firefox..
+            encodeURI() 编码
+            decodeURI() 解码
+
+
+    3. 把字符串当做js表达式来执行
+        后期可以通过http协议，java服务器返回给前端一些js的代码片段
+            eval("js代码")
+-->
+<script >
+    // 字符串转为数值
+    let str = 'a13a14.5a21';
+    console.log(parseInt(str));
+    console.log(parseFloat(str));
+
+    // 中文及特殊符号编码和解码
+    let encode = encodeURI('全局函数');
+    console.log(encode);
+
+    let decode = decodeURI('%E5%85%A8%E5%B1%80%E5%87%BD%E6%95%B0');
+    console.log(decode);
+
+
+    "alert('1')"
+    // 执行js字符串的语句
+    //  eval("alert('1')");
+</script>
+</body>
+</html>

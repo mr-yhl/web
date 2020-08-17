@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>07-dom操作样式</title>
+    <style>
+        #p1{ background-color: red;}
+        .mp {
+            color: green
+        }
+
+        .mpp {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+
+<p id="p1">1. 设置一个css样式</p>
+<p id="p2">2. 批量设置css样式</p>
+<p id="p3">3. 通过class设置样式</p>
+
+<script>
+    let p1 = document.getElementById("p1");//获取段落标签
+    let p2 = document.getElementById("p2");//获取段落标签
+    let p3 = document.getElementById("p3");//获取段落标签
+
+    // 1. 设置一个css样式
+    p1.style.backgroundColor='skyblue';
+    p1.style.border='1px solid red';
+
+    // 1.1.获取第一个p标签 style属性 的背景css样式
+    console.log(p1.style.backgroundColor);
+
+
+    // 2. 批量设置css样式
+    p2.style.cssText='background-color:red;border:2px double black';
+
+    // 3. 通过class设置样式
+    p3.className="mp mpp";
+
+</script>
+</body>
+</html>

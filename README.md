@@ -35,3 +35,23 @@ dayXX_xxx_xxx为文件夹下是代码也有笔记存在,根据readme文档的介
   + 输出
   + 函数
   + 事件
+
+## [day03js高级](https://github.com/mr-yhl/web/tree/master/day03_js)
+
+今天主要介绍了js的相关内容,报告对象,事件等内容,还有四个小练习
+
++ js的常用内置对象
+
+  + String
+  + Array
+  + Date
+  + Math
+
++ BOM对象
+
+  + window
+  + location
+
++ Dom对象
+
++ 正则表达式

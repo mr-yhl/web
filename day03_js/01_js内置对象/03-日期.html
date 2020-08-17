@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>03-日期</title>
+
+</head>
+<body>
+<!--
+    日期
+        let date = new Date();
+-->
+    <script>
+        let date = new Date();
+        console.log(date);
+        // 转换成当地时间
+        console.log(date.toLocaleString());
+        console.log(date.getFullYear());// 获取4位年份
+        console.log(date.getMonth()+1); // 获取月份 （0~11） 需要+1
+        console.log(date.getDate()); // 获取几号
+        let nowDate = `${date.getFullYear()}年${date.getMonth()+1}月${date.getDate()}日`;
+        console.log(nowDate);
+        console.log(date.getTime()); // 获取1970-今 的毫秒值 （时间戳 唯一性...）
+    </script>
+</body>
+</html>
