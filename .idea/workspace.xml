@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b8f99f9-6d77-4d63-9626-d1f03931897d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day03_js/04_作业/day03_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_js/04_作业/day03_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_js/04_作业/day03_3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day03_js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day03_js/04_作业" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -51,15 +53,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTML" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\code\web\day02_css&amp;js" />
+      <recent name="F:\code\web\day02_css&amp;js\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\web\day03_js\04_作业" />
       <recent name="F:\code\web\day03_js" />
       <recent name="F:\code\web\day02_css&amp;js" />
       <recent name="F:\code\web\day01_html&amp;css\img" />
       <recent name="F:\code\web\day01_html&amp;css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\code\web\day02_css&amp;js" />
-      <recent name="F:\code\web\day02_css&amp;js\img" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -97,6 +100,7 @@
       <workItem from="1597578979041" duration="4967000" />
       <workItem from="1597622856874" duration="13909000" />
       <workItem from="1597659116069" duration="187000" />
+      <workItem from="1597659384023" duration="4827000" />
     </task>
     <servers />
   </component>

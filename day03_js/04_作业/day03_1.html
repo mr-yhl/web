@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+	 <head>
+	 	<meta charset="UTF-8">
+	 <style>
+		 .tab{
+			 border: 1px blue solid;
+		 }
+	 </style>
+	 </head>
+    <body>
+   	 	行：<input id="row" type="text" />
+    	列：<input id="col" type="text" />
+    	<input type="button" value="生成表格" onclick="createTable()"/>
+    	<div id="divId"></div>
+		<script>
+
+			function  createTable() {
+				let rows = parseInt(document.querySelector("#row").value);
+				let cols = parseInt(document.querySelector("#col").value);
+				let divid = document.querySelector("#divId");
+				divid.innerHTML="";
+				//alert(divid.innerHTML);
+				let tableElement = document.createElement("table");
+
+				for (let  i= 0;i<rows;i++) {
+					let rowElement = document.createElement("tr");
+					for (let  j = 0;j<cols;j++){
+						let colsElement = document.createElement("td");
+						colsElement.innerHTML=i+"-"+j;
+						colsElement.className="tab";
+						rowElement.appendChild(colsElement);
+					}
+					rowElement.className="tab";
+					tableElement.cellPadding="0";
+					tableElement.cellSpacing="0";
+					tableElement.appendChild(rowElement);
+				}
+				//alert(tableElement);
+
+				divid.appendChild(tableElement);
+				tableElement.className="tab";
+				//location.reload();
+
+			}
+
+		</script>
+    </body>
+</html>

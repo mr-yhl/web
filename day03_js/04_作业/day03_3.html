@@ -1,0 +1,128 @@
+<!doctype html>  
+<html lang="en">  
+	 <head>  
+	  	 <meta charset="UTF-8">    
+	  	 <title>儿童身高预测</title> 
+		 <style type="text/css">
+			 body,td,th {font-size: 12px;}
+			 a {color:#006699; text-decoration:none;}
+			 a:hover {color:#f60;text-decoration:underline;}
+			 dd,dl,ul,li,p,form{ margin:0; padding:0;list-style-type:none;}
+			 h1,h2,h3,h4,h5{font-size:14px;margin:0; padding:0; line-height:28px;}
+			 .but{color:#FF8320; border:1px solid #ccc; background:#fff;cursor:pointer;height:25px; line-height:25px;width:80px;}
+			 .checkbox{border:1px solid #FFD7B7; margin:5px auto; background:#FFFBF4; padding:15px; width:600px;}
+			 .Test ul{ margin:0; padding:0;}
+			 .Test li{ border:1px solid #FFFBF4; margin-bottom:4px; cursor:pointer; width:100%; height:30px; line-height:30px; padding-left:5px; background:#FFFBF4}
+			 .Test li.myBox{ border:1px solid #e7e7e7; background:#f7f7f7;}
+			 .Problem{}
+			 .hidden{ display:none;}
+			 #Result p{ margin:8px; padding:8px; line-height:25px;background:#FFF; width:560px; border:1px dotted #FF8E20;}
+			 #Result i{ color:red; font-size:16px; font-style:normal;}
+			 #fu,#mu{ color:#ccc;}
+		</style>
+
+	</head>
+	<body>
+		 <div class="checkbox">
+			 <div class="Test">
+			     <div id="Problem" >		
+				     <h3>儿童身高预测</h3>
+				     <form action="" method="get">
+					  	 <ul>
+					   		<li>儿童性别：<input name="gender" type="radio" value="1">男孩<input name="gender" type="radio" value="0"> 女孩 </li>
+					 　　　　 <li>爸爸的身高：<input type="text" size="8" maxlength="8" id="fu" fu="例：175" value="例：175" onClick="if(this.getAttribute('value')==this.getAttribute('fu'))this.value=''" onBlur="if(this.value=='')this.value=this.getAttribute('fu');"> 厘米</li>
+					 　　　　 <li>妈妈的身高：<input type="text" size="8" maxlength="8" id="mu" mu="例：165" value="例：165" onClick="if(this.getAttribute('value')==this.getAttribute('mu'))this.value=''" onBlur="if(this.value=='')this.value=this.getAttribute('mu');"> 厘米</li>
+					     </ul>
+					     <input type="button"  class="but"  id="btn" value="查看结果" />　
+					 	 <input type="button"  class="but"  id="reset" value="重新测试" />
+					 </form>
+				 </div>
+				
+				 <div id="Result" >
+				     <h3>测试结果</h3>
+				    <p>
+				　   	小孩未来的身高是：<span id="Result2">未知</span> 厘米
+					 </p>
+				 </div>
+			 </div>
+		 </div>
+		 
+		注解：<br>
+		
+		儿子成年身高=[(父身高+母身高)/2]×1.08<br>
+		女儿成年身高=(父身高×0.923+母身高)/2<br>
+		
+		错误提示有提示：<br>
+		没选择儿童性别！<br>
+		输入父母身高不是数字！<br>
+		 <font color="red">输入父母身高要都是55-250之间！</font>
+		<script>
+			let reset = document.querySelector("#reset");//获取重新测试标签元素
+			let btn = document.querySelector("#btn");//获取查看结果标签元素
+			let fu = document.querySelector("#fu");//获取父亲身高文本框
+			let mu = document.querySelector("#mu");//获取母亲身高文本框
+			let result = document.querySelector("#Result2");//获取结果标签元素
+
+			//判断选中的是男孩还是女孩儿
+			function judgeGender(){
+				let radios = document.querySelectorAll('input[name="gender"]');//获取单选框数组
+				let k = null;//未选中性别
+				for(let r of radios){
+					if(r.checked){
+						k = r.value;//选中的单选框
+					}
+				}
+				//alert(k);
+				return k;//选中男 1 选中女 0 都未选中值 null
+
+			}
+			//判断父母身高不是数字,不是数字返回true
+			function judgeIsNaN(){
+				return isNaN(fu.value) || isNaN(mu.value);//不是数字返回true
+			}
+
+			//判断父母身高范围不合法,父母身高不合法 返回true
+			function judgeNumber(){//父母身高不合法 返回true
+				return parseInt(fu.value) <55 || parseInt(fu.value)>250 || parseInt(mu.value) <55 || parseInt(mu.value)>250;
+			}
+
+
+			reset.onclick = function(){//单击重新测试的时候
+				fu.value = "例:175";
+				mu.value = "例:165";
+				result.innerText = "未知";
+			}
+
+			btn.onclick = function(){//点击查看结果的时候
+				let gender = judgeGender();//选中的性别  选中男 1 选中女 0 都未选中值 null
+
+				//判断是否选择性别
+				if(gender == null){//未选中性别
+					alert("请选择性别!");
+					return;
+				}else if(judgeIsNaN()){//父母身高不是数字
+					alert("父母身高不是数字!");
+					return;
+				}else if(judgeNumber()){//父母身高范围不合法
+					alert("输入父母身高要都是55-250之间！")
+					return;
+				}else{//性别已经选择,父母身高都合法,则预计儿童身高
+					if(gender == 1){//男孩儿
+						// 儿子成年身高=[(父身高+母身高)/2]×1.08
+						let boy = ((parseInt(fu.value) + parseInt(mu.value))/2 )*1.08;//计算儿子身高
+						result.innerText = parseInt(boy);//设置预测结果
+					}else if(gender == 0){//女孩儿
+						// 女儿成年身高=(父身高×0.923+母身高)/2
+						let girl = (parseInt(fu.value)*0.923 + parseInt(mu.value))/2;//计算女孩身高
+						result.innerText = parseInt(girl);//设置预测结果
+					}else{
+						result.innerText = "未知";
+					}
+
+				}
+
+			}
+		</script>
+
+	</body>
+</html>

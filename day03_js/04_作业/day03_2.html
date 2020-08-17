@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>添加行数据</title>
+		<meta charset="UTF-8">
+
+	</head>
+	<body>
+		<table border="1" id="table" style="width: 50%" cellspacing="0">
+			<tr>
+				<th>学号</th>
+				<th>姓名</th>
+				<th>操作</th>
+			</tr>
+			<tr>
+				<td>itcast001</td>
+				<td>zhangsan</td>
+				<td><a href="javascript:void(0);" onclick="deleteRow(this)">删除</a></td>
+			</tr>
+			<tr>
+				<td>itcast002</td>
+				<td>lisi</td>
+				<td><a href="javascript:void(0);" onclick="deleteRow(this)">删除</a></td>
+			</tr>
+		</table>
+		<br />
+		<label>学号：<input type="text" size=20 id="xh" /></label>
+		<label>姓名：<input type="text" size=20 id="name" /></label>
+		<input type="button" value="添加一行数据" onclick="addRow()" />
+
+
+		<script type="text/javascript">
+			
+			//添加行操作
+			function addRow() {//点击一行数据按钮添加时调用执行
+				let xh = document.querySelector("#xh").value;//获取学号值
+				let name = document.querySelector("#name").value;//获取姓名
+				let table = document.querySelector("#table");//获取table标签
+				let tr = document.createElement("tr");//创建一个tr标签
+				tr.innerHTML = '<td>'+xh+'</td><td>'+name+'</td><td><a onclick="deleteRow(this)" href="javascript:void(0)">删除</a></td>';//设置新增一行的html内容
+				table.appendChild(tr);//把新增的行内容追加给table
+
+			}
+
+			//删除行操作
+			function deleteRow(a){
+				let currentTr = a.parentNode.parentNode;//当前行元素
+				// let table = document.querySelector("#table");//获取table标签
+				let table = currentTr.parentNode;//同上
+				table.removeChild(currentTr);//删除当前行
+
+
+			}
+			
+		</script>
+	
+	</body>
+</html>
