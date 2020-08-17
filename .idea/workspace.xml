@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b8f99f9-6d77-4d63-9626-d1f03931897d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day03_js/01_js内置对象/01-字符串.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/01_js内置对象/02-数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/01_js内置对象/03-日期.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/01_js内置对象/04-数学.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/01_js内置对象/05-全局函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/02_bom&amp;dom/01-js三个弹框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/02_bom&amp;dom/02-js二个定时器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/02_bom&amp;dom/03-location对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/02_bom&amp;dom/04-dom获取元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/02_bom&amp;dom/05-dom操作内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/02_bom&amp;dom/06-dom操作属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/02_bom&amp;dom/07-dom操作样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/02_bom&amp;dom/08-dom操作元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/02_bom&amp;dom/09-正则表达式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/03_综合案例/01-案例-表单校验.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/03_综合案例/02-案例-商品全选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/03_综合案例/03-案例-省市级联.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/03_综合案例/04-案例-隔行变色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_css&amp;js/02_黑马旅游网/注册页面.html" beforeDir="false" afterPath="$PROJECT_DIR$/day02_css&amp;js/02_黑马旅游网/注册页面.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +96,7 @@
       <workItem from="1597578882234" duration="58000" />
       <workItem from="1597578979041" duration="4967000" />
       <workItem from="1597622856874" duration="13909000" />
+      <workItem from="1597659116069" duration="187000" />
     </task>
     <servers />
   </component>

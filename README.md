@@ -1,4 +1,19 @@
 # web
+
+<center><span style="font-family: Calibri;font-size: 30px">WEB学习代码笔记</span></center>
+<div style="background:#86b0ed;width: 100%;">
+<img src="ico.png" style="margin: 10px;width: 75px;float: left"  />
+<center>
+<span style="align:left">
+业精于勤，荒于嬉；行成于思，毁于随。<br>
+方今圣贤相逢，治具毕张。拔去凶邪，登崇畯良。
+占小善者率以录，名一艺者无不庸。<br>爬罗剔抉，刮垢磨光。
+盖有幸而获选，孰云多而不扬？
+诸生业患不能精，无患有司之不明；行患不能成，无患有司之不公。
+</span>
+</center>
+</div>
+
 这是javaWeb阶段的工程笔记，保存了web阶段的代码与笔记。
 
 note是笔记文件夹,里面有md格式的笔记,也有整理好的思维导图.
