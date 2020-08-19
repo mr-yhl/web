@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+
+<form action="#">
+    用户名：<input id="username" type="text" name="username"> <span id="userInfo"></span>
+</form>
+    <script>
+        $("#username").blur(function () {
+            let value = $(this).val();
+            // alert(value);
+            $.ajax({
+                "type":"post",
+                "url":"http://localhost:8080/check",
+                "date":`username=${value}`,
+                success:function (resp) {
+                    // alert(resp);
+                    $("#userInfo").html(resp);
+                }
+            });
+        });
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>10-dom操作属性</title>
+        <script src="../js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <form action="#" method="get">
+            姓名 <input type="text" name="username" id="username" value="德玛西亚"/> <br/>
+
+            爱好
+            <input id="hobby" type="checkbox" name="hobby" value="perm" checked="checked">烫头<br/>
+
+            <input type="reset" value="清空按钮"/>
+            <input type="submit" value="提交按钮"/><br/>
+        </form>
+        <!--
+        1. val()： 获取/设置 （input标签）value属性值
+        相当于：input的js对象.value属性
+        2. attr(): 获取/设置元素的属性
+        removeAttr() 删除属性
+        3. prop():获取/设置元素的属性
+        removeProp() 删除属性
+        jq在1.6版本之后，提供另一组API prop 通常处理属性值为布尔类型操作
+        例如：checked selected等
+        -->
+        <script>
+            // 1.获取文本框value属性
+            // console.log($("#username").val());
+            $('#username').val('草丛伦...');
+
+
+            // 获取指定属性的值
+            console.log($('#hobby').attr('value'));
+            // 设置/更新指定属性的值
+            $('#hobby').attr('value', '烫头');
+            // 删除属性
+            $('#hobby').removeAttr('value');
+
+            // 2.获取爱好的checked属性
+            // attr() 方法操作 boolean类型的属性比较麻烦...
+            // console.log($('#hobby').attr('checked'));
+            console.log($('#hobby').prop('checked'));
+        </script>
+    </body>
+</html>

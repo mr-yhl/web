@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>03-页面加载事件</title>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <!--
+    页面加载事件
+    语法
+        js
+            window.onload=function(){}
+        jq
+            $(function(){})
+    特点
+        js：只能定义一次，后面的会覆盖前面的
+        jq：可以定义多次...
+    -->
+    <script>
+        $(function(){
+           alert(typeof this);
+        });
+    </script>
+</body>
+</html>

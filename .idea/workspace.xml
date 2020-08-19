@@ -2,9 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b8f99f9-6d77-4d63-9626-d1f03931897d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day03_js/04_作业/day03_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/04_作业/day03_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_js/04_作业/day03_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/01_自定义js框架/mryhl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/01_自定义js框架/自定义js框架.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/01-HTML引入Jquery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/02-jq与js对象相互转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/03-页面加载事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/04-基本选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/05-层级关系选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/06-属性选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/07-过滤选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/08-对象遍历.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/09-dom操作内容.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/10-dom操作属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/11-dom操作样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/12-dom操作元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/13-jq事件绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/14-常见事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/03_综合案例/01-案例-隔行变色.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/03_综合案例/02-案例-商品全选.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/json&amp;ajax/01_json/01-JSON基础语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/json&amp;ajax/01_json/02-JSON格式转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/json&amp;ajax/02_ajax/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/json&amp;ajax/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/json&amp;ajax/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/json&amp;ajax/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +83,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day03_js/04_作业" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day04_jquery" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -53,16 +91,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTML" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\code\web\day02_css&amp;js" />
-      <recent name="F:\code\web\day02_css&amp;js\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\web\day04_jquery" />
       <recent name="F:\code\web\day03_js\04_作业" />
       <recent name="F:\code\web\day03_js" />
       <recent name="F:\code\web\day02_css&amp;js" />
       <recent name="F:\code\web\day01_html&amp;css\img" />
-      <recent name="F:\code\web\day01_html&amp;css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\code\web\day02_css&amp;js" />
+      <recent name="F:\code\web\day02_css&amp;js\img" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -100,7 +138,10 @@
       <workItem from="1597578979041" duration="4967000" />
       <workItem from="1597622856874" duration="13909000" />
       <workItem from="1597659116069" duration="187000" />
-      <workItem from="1597659384023" duration="4827000" />
+      <workItem from="1597659384023" duration="6032000" />
+      <workItem from="1597721733772" duration="94000" />
+      <workItem from="1597740426094" duration="449000" />
+      <workItem from="1597796890094" duration="17029000" />
     </task>
     <servers />
   </component>
@@ -124,10 +165,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="365" y="148" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1597579088217" />
-    <state x="332" y="76" key="new project wizard" timestamp="1597636032305">
+    <state x="332" y="76" key="new project wizard" timestamp="1597798610801">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="332" y="76" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1597636032305" />
+    <state x="332" y="76" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1597798610801" />
     <state x="445" y="70" width="715" height="515" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597577997116">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

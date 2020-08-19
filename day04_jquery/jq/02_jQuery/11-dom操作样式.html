@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>11-dom操作样式</title>
+        <script src="../js/jquery-3.2.1.min.js"></script>
+        <style>
+            #p1 {
+                background-color: red;
+            }
+
+            .mp {
+                color: green
+            }
+
+            .mpp {
+                background-color: lightgray;
+            }
+        </style>
+
+    </head>
+    <body>
+        <p id="p1">1. 设置一个css样式</p>
+        <p id="p2">2. 批量设置css样式</p>
+        <p id="p3">3. 通过class设置样式</p>
+        <p id="p4">4.
+            <button id="toggle">切换</button>
+            class样式
+        </p>
+        <!--
+        1. 直接修改jq对象样式属性
+        语法：
+        jq对象.css()
+        css(样式名) 获取
+        css(样式名,样式值) 设置
+        兼容性好：样式名支持：fontSize | font-size
+        2. 添加/删除jq对象样式
+        语法：
+        jq对象.addClass()
+        jq对象.removeClass()
+        3. 切换jq对象样式
+        语法：
+        jq对象.toggleClass() 无添加，有删除
+        -->
+        <script>
+            let $p1 = $('#p1');//获取p1
+            let $p2 = $('#p2');//获取p2
+            let $p3 = $('#p3');//获取p3
+            let $p4 = $('#p4');//获取p4
+
+            // 1. 设置一个css样式
+            $p1.css('backgroundColor', 'pink')
+
+            // 2. 批量设置css样式
+            $p2.css({'backgroundColor': "gold", "border": "1px solid red"})
+            // 3. 通过class设置样式
+            $p3.addClass("mp mpp");
+            $p3.removeClass("mpp");
+            // 4. toggleClass() 切换一个class
+            $('#toggle').click(function () {
+                $p4.toggleClass('mp mpp')
+            })
+        </script>
+
+    </body>
+</html>

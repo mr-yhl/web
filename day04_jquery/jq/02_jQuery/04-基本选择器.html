@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>04-基本选择器</title>
+        <script src="../js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+
+        <span class="female">古力娜扎</span>
+        <span class="female">迪丽热巴</span>
+        <span class="female hero">黑寡妇</span>
+
+        <span class="male hero">钢铁侠</span>
+        <span class="male hero">超人</span>
+
+
+        <div id="boss">灭霸</div>
+        <!--
+        1. 标签（元素）选择器
+        * 语法：$("html标签名") 获得所有匹配标签名称的元素
+        2. id选择器
+        * 语法：$("#id的属性值") 获得与指定id属性值匹配的元素
+        3. 类选择器
+        * 语法：$(".class的属性值") 获得与指定的class属性值匹配的元素
+        4. 并集选择器
+        * 语法：$("选择器1,选择器2....") 获取多个选择器选中的所有元素
+        -->
+        <script>
+            // 1.获取span标签的jquery对象
+            console.log($('span').length);
+
+            // 2.获取class有hero的jquery对象
+            console.log($('.hero').length);
+
+            // 3.获得id="boss"的jquery对象
+            console.log($('#boss').length);
+
+            // 4.并集选择器
+            console.log($('span div').length);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>13-jq事件绑定</title>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<input type="input" value="js方式" id="jsBtn"> <br>
+<input type="input" value="jq方式" id="jqBtn"> <br>
+    <!--
+        js对象.事件属性=function(){}
+        jq对象.事件函数(function(){})
+
+    -->
+    <script>
+        // js方式
+        document.getElementById('jsBtn').onclick=function () {
+            alert('js方式')
+        }
+        // jq方式
+        $('#jqBtn').click(function () {
+            alert('jq方式')
+        })
+    </script>
+</body>
+</html>

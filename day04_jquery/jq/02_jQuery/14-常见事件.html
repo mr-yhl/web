@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>06_常见事件</title>
+    <style type="text/css">
+        #e02 {
+            border: 1px solid #000000;
+            height: 200px;
+            width: 200px;
+        }
+
+    </style>
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#e01").blur(function () {
+                $("#textMsg").html("文本框失去焦点：blur");
+            }).focus(function () {
+                $("#textMsg").html("文本框获得焦点：focus");
+            }).keydown(function () {
+                $("#textMsg").html("键盘按下：keydown ");
+            }).keypress(function (event) {
+                var event = event || window.event;
+                $("#textMsg").append("键盘按：keypress ("+ String.fromCharCode(event.keyCode)+")；");
+            }).keyup(function () {
+                $("#textMsg").append("键盘弹起：keyup ");
+            });
+            var i = 0;
+            $("#e02").mouseover(function () {
+                $("#divMsg").html("鼠标移上：mouseover");
+            }).mousemove(function () {
+                // $("#divMsg").html("鼠标移动：mousemove , " + i++ );
+            }).mouseout(function () {
+                $("#divMsg").html("鼠标移出：mouseout");
+            }).mousedown(function () {
+                $("#divMsg").html("鼠标按下：mousedown");
+            }).mouseup(function () {
+                $("#divMsg").html("鼠标弹起：mouseup");
+            });
+
+            $("#e03").click(function () {
+                $("#buttonMsg").html("单击：click");
+            }).dblclick(function () {
+                $("#buttonMsg").html("双击：dblclick");
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <!--
+    1. 点击事件：
+        1. click()：单击事件
+        2. dblclick()：双击事件
+    2. 焦点事件
+        1. blur()：失去焦点
+        2. focus():元素获得焦点。
+    3. 鼠标事件：
+        1. mousedown() 鼠标按钮被按下。
+        2. mouseup() 鼠标按键被松开。
+        3. mousemove() 鼠标被移动。
+        4. mouseover() 鼠标移到某元素之上。
+        5. mouseout() 鼠标从某元素移开。
+    4. 键盘事件：
+        1. keydown() 某个键盘按键被按下。
+        2. keyup() 某个键盘按键被松开。
+        3. keypress() 某个键盘按键被按下并松开。
+    5. 改变事件
+        1. change() 域的内容被改变。
+    6. 表单事件：
+        1. submit() 提交按钮被点击。
+    7. 页面加载事件：
+     1. $(function(){})
+    -->
+
+<input id="e01" type="text"/><span id="textMsg"></span> <br/>
+<hr/>
+<div id="e02"></div>
+<span id="divMsg"></span> <br/>
+<hr/>
+<input id="e03" type="button" value="可以点击"/><span id="buttonMsg"></span> <br/>
+</body>
+</html>

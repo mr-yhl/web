@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>08-对象遍历</title>
+        <script src="../js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <!--
+        jquery对象的遍历
+            $.each() 用法示例
+        -->
+        <ul id="city">
+            <li>北京</li>
+            <li>上海</li>
+            <li>天津</li>
+        </ul>
+        <script>
+            // 获取ul的jq对象
+            // let $city = $('#city li');
+            let city = document.querySelectorAll('#city li');
+            // js普通for
+            for (let i = 0; i < city.length; i++) {
+                console.log(city[i].innerText);
+            }
+            // js增强for
+            for (let ele of city) {
+                console.log(ele.innerText);
+            }
+
+            // jq遍历方法，集各家之所长...
+            $(city).each(function (index, element) {
+                // console.log(index);
+                // console.log($city[index].innerText);
+                // console.log(element);
+                //console.log(element.innerText);
+                // console.log($(element).text()); // js转jq，调用jq方法..
+                console.log($(this).text()); // this表示当前 遍历的元素js对象
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>02-jq与js对象相互转换</title>
+        <script src="../js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <div id="myDiv">通过不同方式获得文本内容</div>
+        <!--
+            jQuery对象与js对象相互转换
+            js -> jq
+            $(js对象) or JQuery(js对象)
+            jq -> js
+            jq对象[索引] or jq对象.get(索引)
+            -->
+        <script>
+            // 通过js方式修改文本内容
+            // document.getElementById("myDiv").innerText="js方式改变了";
+            // 通过jq方式修改文本内容
+            // $("#myDiv").text("jq方式改变内容.......")
+            // js对象和jq对象的：属性和方法不同通用
+            /*let elementById = document.getElementById("myDiv");
+            $(elementById).text("js用jq的方法");*/
+            $("#myDiv")[0].innerText = "jq转js...";
+
+        </script>
+    </body>
+</html>

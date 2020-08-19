@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>06-属性选择器</title>
+        <script src="../js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+
+        <input type="text" name="username" value="用户名"/><br/>
+
+        <input type="text" name="nickname" value="昵称"/><br/>
+        <!--
+
+        1. 属性选择器
+        * 语法：$("A[属性名='值']") 包含指定属性等于指定值的选择器
+        2. 复合属性选择器
+        * 语法：$("A[属性名='值'][]...") 包含多个属性条件的选择器
+        -->
+        <script>
+            // 1.获取type='text'的input标签
+            console.log($('input[type="text"]').length);
+            // 2.获取type='text' 且 name="nickname" 的input标签
+            console.log($('input[type="text"][name="nickname"]').length);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>02-JSON格式转换</title>
+
+</head>
+<body>
+<script>
+    let userStr = "{\"username\":\"后羿\",\"age\":18,\"sex\":\"男\"}";
+    console.log(typeof userStr);
+
+    //2. JSON.parse(string) 把字符串转为json对象
+    let user = JSON.parse(userStr);
+    console.log(typeof user);
+    console.log(user.username);
+
+
+    //1. JSON.stringify(object) 把json对象转为字符串
+    console.log(typeof JSON.stringify(user));
+</script>
+</body>
+</html>

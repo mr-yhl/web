@@ -70,3 +70,16 @@ dayXX_xxx_xxx为文件夹下是代码也有笔记存在,根据readme文档的介
 + Dom对象
 
 + 正则表达式
+
+## [day04JQuery](https://github.com/mr-yhl/web/tree/master/day04_jquery)
+
+今天学习了JQuery的基础内容,简单的使用,还了解了json和ajax的内容.
+
++ JQuery介绍
++ JQuery引入
++ JQuery选择器
++ 操作DOM
++ 事件绑定
++ json基础
++ 格式转换
++ ajax入门

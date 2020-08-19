@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>09-dom操作内容</title>
+        <script src="../js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <div id="myDiv"><p>天王盖地虎</p></div>
+        <!--
+        1. text(): 获取/设置元素的标签体纯文本内容
+        * 相当于js： innerText属性
+        2. html(): 获取/设置元素的标签体超文本内容
+        * 相当于js： innerHTML属性
+        -->
+        <script>
+            // 1.text()操作内容
+            // 1.1获取div的纯文本
+            //console.log($('#myDiv').text());
+            // 1.2设置div纯文本
+            //console.log($('#myDiv').text('<h1>宝塔镇河妖</h1>'));
+            // 2.html()操作内容
+            console.log($('#myDiv').html());
+            console.log($('#myDiv').html("<h1>宝塔镇河妖</h1>"));
+            // 2.3追加
+            //console.log($('#myDiv').html($('#myDiv').text()+'<h1>宝塔镇河妖</h1>'));
+
+        </script>
+    </body>
+</html>

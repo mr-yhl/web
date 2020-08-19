@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>01-JSON基础语法</title>
+
+</head>
+<body>
+
+</body>
+    <!--
+    * 对象类型
+		{name:value,name:value}
+
+    * 数组类型
+            [
+                {name:value,name:value},
+                {name:value,name:value},
+                {name:value,name:value}
+            ]
+
+    * 复杂对象
+            {
+                name:value,
+                array:[{name:value},{},{}]
+                user:{name:value}
+            }
+    -->
+<script>
+    // 1.描述用户对象（张三丰、男、32岁）
+    let user = {"username":"张三丰","age":32,"sex":"男"};
+    console.log(user.username);
+    user.age=100;
+    console.log(user.age);
+    // 2.描述用户数组（张三丰、张翠山、张无忌）
+    let array = [
+        {"username": "张三丰", "sex": "男", "age": 32},
+        {"username": "张翠山", "sex": "男", "age": 22},
+        {"username": "张无忌", "sex": "男", "age": 12}
+    ];
+    for (let user of array) {
+        console.log(user.username);
+    }
+    // 3.描述韦小宝（27岁，老婆、师傅）
+    let xiaobao = {
+
+        "username":"韦小宝",
+        "age":27,
+        "lapao":[
+            {"username":"双儿","address":"扬州"},
+            {"username":"建宁","address":"北京人"},
+            {"username":"木婉清","address":"云南"},
+        ],
+        "shifu":{"username":"陈近南","address":"台湾"}
+
+    };
+    console.log(xiaobao.username);
+    for (let laopom of xiaobao.lapao) {
+        console.log(laopom.username + "-" + laopom.address);
+    }
+    console.log(xiaobao.shifu.username);
+</script>
+</html>

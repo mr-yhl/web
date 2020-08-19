@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>05-层级关系选择器</title>
+        <script src="../js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <div id="kangxi">
+            <span>儿子：雍正</span>
+            <b>
+                <span>孙子：乾隆</span>
+            </b>
+        </div>
+        <p>牛顿</p>
+        <!--
+        1. 后代选择器
+        * 语法：$("A B") 选择A元素内部的所有B元素
+        2. 父子选择器
+        * 语法：$("A > B") 选择A元素内部的所有B子元素
+        -->
+        <script>
+            // 1. 获取所有的p,span的文本
+            console.log("1" + $("p,span").text());
+            // 2. 获取div的后代span的文本
+            console.log("2" + $('#kangxi span').text());
+            // 子
+            console.log("3" + $('#kangxi>span').text());
+
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>07-过滤选择器</title>
+        <script src="../js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <ul>
+            <li>大娃（红娃）</li>
+            <li>二娃（橙娃）</li>
+            <li>三娃（黄娃）</li>
+            <li>四娃（绿娃）</li>
+            <li>五娃（青娃）</li>
+            <li>六娃（蓝娃）</li>
+            <li>七娃（紫娃）</li>
+        </ul>
+        <!--
+        1. 首元素选择器
+        * 语法： :first 获得选择的元素中的第一个元素
+        2. 尾元素选择器
+        * 语法： :last 获得选择的元素中的最后一个元素
+        3. 偶数选择器（奇数行）
+        * 语法： :even 偶数，从 0 开始计数
+        4. 奇数选择器（偶数行）
+        * 语法： :odd 奇数，从 0 开始计数
+        5. 指定索引选择器
+        * 语法： :eq(index) 指定索引元素
+        -->
+        <script>
+            // 1.获取第一个元素
+            console.log($('li:first').text());
+            console.log($('li:last').text());
+
+            // 2.获取偶数索引元素
+            console.log($('li:even').text());
+            console.log($('li:odd').text());
+            // 3.获取指定索引2的元素
+            console.log($('li:eq(2)').text());
+
+        </script>
+    </body>
+</html>

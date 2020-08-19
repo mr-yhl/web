@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>12-dom操作元素</title>
+        <script src="../js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <ul id="star">
+            <li>古力娜扎</li>
+            <li>迪丽热巴</li>
+        </ul>
+        <!--
+        1. $(标签) 创建一个标签
+        $("<a>xx</a>") 相当于 document.createElement('li')
+        2. prepend() 在当前元素内部，首部添加子元素
+        父对象.prepend(子对象)
+        3. append() 在当前元素内部，尾部添加子元素
+        父对象.append(子对象)
+        ------------------------------------------------
+        4. empty() 清空子元素 （断子绝孙）
+        对象.empty()
+        5. remove() 删除自己 （满门抄斩）
+        对象.remove()
+        -->
+        <script>
+            let $star = $('#star'); // 无序列表
+            // 1.前面添加马尔扎哈
+            $star.prepend($('<li>马尔扎哈</li>'));
+            // 2.后面添加萨瓦迪卡
+            $star.append($('<li>萨瓦迪卡</li>'));
+            // 3.移出所有列表项
+            //$star.empty();
+            // 4.删除无序列表
+            $star.remove();
+        </script>
+    </body>
+</html>
