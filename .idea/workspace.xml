@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b8f99f9-6d77-4d63-9626-d1f03931897d" name="Default Changelist" comment="" />
+    <list default="true" id="0b8f99f9-6d77-4d63-9626-d1f03931897d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day04_jquery/homework/html/day04_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/homework/html/day04_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/homework/html/day04_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/homework/html/day04_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/homework/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_jquery/homework/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day04_jquery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day04_jquery/homework" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -49,11 +57,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\web\day04_jquery\homework" />
       <recent name="F:\code\web\day04_jquery" />
       <recent name="F:\code\web\day03_js\04_作业" />
       <recent name="F:\code\web\day03_js" />
       <recent name="F:\code\web\day02_css&amp;js" />
-      <recent name="F:\code\web\day01_html&amp;css\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\code\web\day02_css&amp;js" />
@@ -98,7 +106,7 @@
       <workItem from="1597659384023" duration="6032000" />
       <workItem from="1597721733772" duration="94000" />
       <workItem from="1597740426094" duration="449000" />
-      <workItem from="1597796890094" duration="17634000" />
+      <workItem from="1597796890094" duration="18575000" />
     </task>
     <servers />
   </component>

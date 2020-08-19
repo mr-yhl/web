@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>选中输入值</title>
+		<script src="../js/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+		请输入城市：<input type="text" id="id" />
+		<br /><br />
+		城市复选框：
+		<div style="width:240px;background:red;">
+			<input type="checkbox" name="love" value="北京" />北京&emsp;
+			<input type="checkbox" name="love" value="南京" />南京&emsp;
+			<input type="checkbox" name="love" value="上海" />上海&emsp;
+		</div>
+
+		<br /><br />
+		<input type="button" value="判断" onclick="selectValue();" />
+
+
+		<script type="text/javascript">
+
+
+			function selectValue() {
+				// 取消所有选中
+				$('div input[type="checkbox"]').prop("checked",false);
+				// 获取值
+				let val = $("#id").val();
+				$('div input[type="checkbox"][value="'+val+'"]').prop("checked",true);
+			}
+
+		</script>
+	</body>
+
+</html>

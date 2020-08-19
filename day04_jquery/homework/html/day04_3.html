@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>禁用的控件</title>
+		<script src="../js/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+
+
+		<input type="button" id="btnShow" value="请仔细阅读协议(5)" disabled="disabled" />
+		<script type="text/javascript">
+			$(function(){//页面加载完成自动执行
+				let k =5;//倒计时数字
+				let btn = $('#btnShow');//获取按钮
+				let interval = setInterval(function(){
+					k--;//自减一
+					if(k>0){//k大于零时,一直自减一
+						btn.val("请仔细阅读协议("+k+")");//显示倒计时
+					}else{//k为0 显示注册,启动按钮,销毁定时器
+						btn.val("同意注册");//倒计时结束
+						btn.prop("disabled",false);//启动按钮
+						clearInterval(interval);//销毁定时器
+					}
+
+				},1000);//创建一个定时器,每隔1秒执行一次函数
+
+			})
+		</script>
+	</body>
+
+</html>

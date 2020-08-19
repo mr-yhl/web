@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>发帖</title>
+		<script src="../js/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+		<table id="tb" style="border:1px solid red;">
+			<tr>
+				<td>刘一：</td>
+				<td>抢沙发！</td>
+			</tr>
+		</table>
+		<br />
+		昵称:<input type="text" id="txt" value="" /><br />
+		<textarea id="textContent" rows="10" cols="15"></textarea><br />
+		<input type="button" value="评论" id="btn1" />
+
+		<script type="text/javascript">
+			$(function(){//页面加载完成时自动执行
+				let tb = $('#tb').children();//获取表格
+				console.log(tb);
+				$('#btn1').click(function(){
+					let name = $('#txt').val();//昵称
+					let text = $('#textContent').val();//评论内容
+					let tr = "<tr><td>"+name+":</td><td>"+text+"</td></tr>";
+					tb.append(tr);//添加一行
+
+					$('#txt').val("");//清空昵称
+					$('#textContent').val("");//清空评论内容
+
+				});//点击事件
+			});
+		</script>
+	</body>
+</html>
