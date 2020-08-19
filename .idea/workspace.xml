@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b8f99f9-6d77-4d63-9626-d1f03931897d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/01_自定义js框架/mryhl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/01_自定义js框架/自定义js框架.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/01-HTML引入Jquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/02-jq与js对象相互转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/03-页面加载事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/04-基本选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/05-层级关系选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/06-属性选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/07-过滤选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/08-对象遍历.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/09-dom操作内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/10-dom操作属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/11-dom操作样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/12-dom操作元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/13-jq事件绑定.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/02_jQuery/14-常见事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/03_综合案例/01-案例-隔行变色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/03_综合案例/02-案例-商品全选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/03.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/04.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/05.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/06.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/07.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/08.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/09.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/img/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/js/jquery-3.2.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/jq/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/json&amp;ajax/01_json/01-JSON基础语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/json&amp;ajax/01_json/02-JSON格式转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/json&amp;ajax/02_ajax/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/json&amp;ajax/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/json&amp;ajax/js/jquery-3.2.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_jquery/json&amp;ajax/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0b8f99f9-6d77-4d63-9626-d1f03931897d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +98,7 @@
       <workItem from="1597659384023" duration="6032000" />
       <workItem from="1597721733772" duration="94000" />
       <workItem from="1597740426094" duration="449000" />
-      <workItem from="1597796890094" duration="17029000" />
+      <workItem from="1597796890094" duration="17634000" />
     </task>
     <servers />
   </component>
