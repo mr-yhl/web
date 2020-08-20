@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>lx.html</title>
+
+    <script src="../js/jquery-3.2.1.js"></script>
+</head>
+<body>
+
+
+<select id="cityId"></select>
+
+<script>
+    // 页面加载成功后，向服务器发送请求，返回对应省份的城市
+    $(function () {
+        let province = prompt('请输入城市')
+        if(province != null){
+            // 发送ajax请求
+            $.ajax({
+                type:'post',
+                url:'http://localhost:8080/cityList',
+                data:'province='+province,
+                success:function (resp) {
+                    for (let city of resp) {
+                        $('#cityId').append(`<option>${city}</option>`)
+                    }
+                },
+                error:function () {
+                    alert('服务器忙...')
+                }
+            })
+        }
+    })
+</script>
+</body>
+</html>

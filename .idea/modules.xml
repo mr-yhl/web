@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/day01_html&amp;css/day01_html&amp;css.iml" filepath="$PROJECT_DIR$/day01_html&amp;css/day01_html&amp;css.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day02_css&amp;js/day02_css&amp;js.iml" filepath="$PROJECT_DIR$/day02_css&amp;js/day02_css&amp;js.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day03_js/day03_js.iml" filepath="$PROJECT_DIR$/day03_js/day03_js.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day04_jquery/day04_jquery.iml" filepath="$PROJECT_DIR$/day04_jquery/day04_jquery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05-tomcat/day05-tomcat.iml" filepath="$PROJECT_DIR$/day05-tomcat/day05-tomcat.iml" />
     </modules>
   </component>
 </project>
