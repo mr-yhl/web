@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>path</title>
+
+</head>
+<body>
+<h3>当前页面的地址：http://localhost:8080/day06_servlet_xml_war_exploded/static/path.html</h3>
+<hr>
+<!--
+    绝对路径
+        完整格式：
+            http://域名:端口/项目网络地址/资源网络地址
+        （推荐）简化：
+            /项目网络地址/资源网络地址
+ -->
+<a href="http://localhost:8080/day06_servlet_xml_war_exploded/static/path.html">绝对路径完整版</a><br>
+<a href="/day06_servlet_xml_war_exploded/QuickServlet">绝对路径简化版</a> <br>
+
+<!--
+    现阶段别用
+    相对路径（当前页面和目标页面的相对位置关系）
+        ./ 当前目录下
+        ../ 上级目录下
+
+-->
+<hr>
+<a href="../QuickServlet">相对路径</a>
+</body>
+</html>

@@ -1,4 +1,4 @@
-package cn.com.mryhl;
+package cn.com.mryhl.a_quick;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;

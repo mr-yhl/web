@@ -87,3 +87,17 @@ dayXX_xxx_xxx为文件夹下是代码也有笔记存在,根据readme文档的介
 ## [day05-tomcat](https://github.com/mr-yhl/web/tree/master/day05-tomcat)
 
 今天主要讲了关于tomcat服务器的介绍，主要参考note文件夹里的笔记
+
+## [day06-servlet-xml](https://github.com/mr-yhl/web/tree/master/day06-servlet-xml)  [day06-servlet-anno](https://github.com/mr-yhl/web/tree/master/day06-servlet-anno)  [day06-servlet-context](https://github.com/mr-yhl/web/tree/master/day06-servlet-context)
+
+今天主要学习了servlet部分的内容，包括创建，相关api，生命周期等内容。
+
++ 概述
++ 快速入门【重点】
++ api
++ 体系结构
++ servlet路径
+  + 绝对路径
+  + 相对路径
++ 注解（3.0）
++ servletContext（表示当前运行web项目）
