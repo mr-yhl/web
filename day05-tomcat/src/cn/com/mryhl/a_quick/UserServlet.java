@@ -18,7 +18,7 @@ public class UserServlet implements Servlet {// 实现此接口，才能被外�
     }
 
     // 对外提供服务的方法
-    /*
+    /**
         servletRequest：请求 （获取）
         servletResponse：响应（返回）
      */

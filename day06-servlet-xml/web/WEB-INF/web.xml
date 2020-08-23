@@ -8,6 +8,9 @@
     servlet-name:当前实例化的类名
     servlet-class：当前实例化的全限定类名
     -->
+    <welcome-file-list>
+        <welcome-file>static/demo2.html</welcome-file>
+    </welcome-file-list>
     <servlet>
         <servlet-name>QuickServlet</servlet-name>
         <servlet-class>cn.com.mryhl.a_quick.QuickServlet</servlet-class>

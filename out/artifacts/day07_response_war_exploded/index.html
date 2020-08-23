@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>index</title>
+
+    </head>
+    <body>
+        <h3>response知识学习</h3>
+
+        <img src="/day07_response/CheckcodeServlet" alt="" id="img1">
+
+        <hr>
+
+
+        <h4>超链接直接下载</h4>
+        <a href="/day07_response/download/test.zip">test.zip</a><br>
+        <a href="/day07_response/download/demo.docx">demo.docx</a><br>
+        <a href="/day07_response/download/car.jpg">car.jpg</a><br>
+
+        <h4>servlet文件下载</h4>
+        <a href="/day07_response/DownloadServlet?filename=test.zip">test.zip</a> <br>
+        <a href="/day07_response/DownloadServlet?filename=demo.docx">demo.docx</a> <br>
+        <a href="/day07_response/DownloadServlet?filename=car.jpg">car.jpg</a> <br>
+        <a href="/day07_response/DownloadServlet?filename=禽兽.jpg">禽兽.jpg</a> <br>
+        <script>
+            // 给img标签绑定点击事件
+            document.getElementById('img1').onclick=function () {
+                this.src='/day07_response/CheckcodeServlet?'+new Date().getTime(); // 使用时间戳为了欺骗浏览器
+            }
+        </script>
+    </body>
+</html>

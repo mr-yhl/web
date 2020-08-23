@@ -1,3 +1,7 @@
+---
+
+---
+
 
 <center>Servlet入门</center>
 
@@ -24,7 +28,13 @@
 
 接收请求，处理逻辑，响应结果
 
++ servlet与普通的java程序的区别
 
+  1. 必须实现servlet接口
+
+  2. 必须在servlet容器（服务器）中运行
+
+  3. servlet程序可以接收用户请求参数以及向浏览器输出数据
 
 ## 第二章 Servlet快速入门
 
@@ -237,6 +247,8 @@ public class LifeServlet implements Servlet {
         <url-pattern>/LifeServlet</url-pattern>
     </servlet-mapping>
 ```
+
+
 
 ### 2 拓展：ServletConfig接口
 
