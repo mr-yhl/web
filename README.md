@@ -106,3 +106,17 @@ dayXX_xxx_xxx为文件夹下是代码也有笔记存在,根据readme文档的介
 
 + Request请求对象，获取  http请求消息格式（行、头、体）
 + Response响应对象，设置  http响应消息格式（行、头、体）
+
+## [day08_cookie](https://github.com/mr-yhl/web/tree/master/day08_cookie)  [day08_session](https://github.com/mr-yhl/web/tree/master/day08_session) [day08_case](https://github.com/mr-yhl/web/tree/master/day08_case)
+
+今日主要是学习了关于会话相关的内容,有cookie和session,还简单的认识了jsp,练习了一些小的案例。
+
++ 会话介绍
++ cookie（客户端）
+  - addCookie
+  - getCookies
++ jsp初识
++ session（服务器）
+  - setAttribute
+  - getAttribute
++ 域对象
