@@ -120,3 +120,22 @@ dayXX_xxx_xxx为文件夹下是代码也有笔记存在,根据readme文档的介
   - setAttribute
   - getAttribute
 + 域对象
+
+## [day09_jsp](https://github.com/mr-yhl/web/tree/master/day09_jsp)  [day09_case](https://github.com/mr-yhl/web/tree/master/day09_case)
+
+今天主要学习了jsp相关的内容,包括jsp的一些基础内容,还是mvc模型,上传架构等内容.还有el 、jstl的使用.
+
++ Jsp
+  + 内置对象
+  + 指令
+  + 动作标签
++ MVC模式【感知】
++ EL
+  + 获取值
+  + 运算符
++ JSTL
+  + 导包
+  + 引入
++ 三层架构【MVC升级版】
++ 用户列表查询
+

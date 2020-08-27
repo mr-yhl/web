@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/day08_case/day08_case.iml" filepath="$PROJECT_DIR$/day08_case/day08_case.iml" />
       <module fileurl="file://$PROJECT_DIR$/day08_cookie/day08_cookie.iml" filepath="$PROJECT_DIR$/day08_cookie/day08_cookie.iml" />
       <module fileurl="file://$PROJECT_DIR$/day08_session/day08_session.iml" filepath="$PROJECT_DIR$/day08_session/day08_session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day09_case/day09_case.iml" filepath="$PROJECT_DIR$/day09_case/day09_case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day09_jsp/day09_jsp.iml" filepath="$PROJECT_DIR$/day09_jsp/day09_jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_demo/test_demo.iml" filepath="$PROJECT_DIR$/test_demo/test_demo.iml" />
     </modules>
   </component>
 </project>
