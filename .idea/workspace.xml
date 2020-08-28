@@ -1,46 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.6354515" />
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="day09_jsp:war exploded" />
+      <artifact name="day10_fileupload:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b8f99f9-6d77-4d63-9626-d1f03931897d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day09_case_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day09_jsp_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_case/day09_case.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_case/src/cn/com/mryhl/tj40827/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_case/src/cn/com/mryhl/tj40827/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_case/src/cn/com/mryhl/tj40827/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_case/src/cn/com/mryhl/tj40827/web/FindAllServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_case/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_case/web/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_case/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_case/web/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/day09_jsp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/src/cn/com/mryhl/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/a_jsp/500.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/a_jsp/demo01.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/a_jsp/demo02.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/a_jsp/demo03.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/a_jsp/demo04.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/a_jsp/demo05.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/a_jsp/demo06.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/a_jsp/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/a_jsp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/b_forword/a.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/b_forword/b.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/c_el/demo01.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/c_el/demo02.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/c_el/demo03.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/c_el/demo04.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/d_jstl/demo01.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_jsp/web/d_jstl/demo02.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day10_fileupload_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day10_filter_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day10_listener_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_demo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/11063.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_fileupload/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_fileupload/day10_fileupload.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_fileupload/src/cn/com/mryhl/servlet/UploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_fileupload/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_fileupload/web/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_fileupload/web/WEB-INF/lib/hutool-all-5.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_fileupload/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_fileupload/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/day10_filter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/a_quick/QuickFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/b_detail/LifeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/b_detail/ModelFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/b_detail/UrlPatternFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/c_servlet/AServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/c_servlet/BServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/d_chain/FilterA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/d_chain/FilterB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/e_case/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/e_case/MyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/e_case/WordFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/e_case/WordProFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/e_case/WordServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/cn/com/mryhl/f_decorator/TestDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/src/word.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/web/UserCard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/web/bbs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/web/quick.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/web/show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/web/user/UserInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_filter/web/user/UserOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_listener/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_listener/day10_listener.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_listener/src/cn/com/mryhl/a_listener/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_listener/src/cn/com/mryhl/b_case/ChangeCountPersonListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_listener/src/cn/com/mryhl/b_case/InintCountPersonListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_listener/src/cn/com/mryhl/b_case/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_listener/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_listener/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -93,29 +111,33 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowTODO.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day09_case/src/cn/com/mryhl/tj40827/domain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day10_fileupload/web/WEB-INF/lib" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cn.com.mryhl.c_case" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\web\day10_fileupload\web\WEB-INF\lib" />
       <recent name="F:\code\web\day09_case\src\cn\com\mryhl\tj40827\domain" />
       <recent name="F:\code\web\day09_jsp\web\WEB-INF\lib" />
       <recent name="F:\code\web\day09_case\web\lib" />
       <recent name="F:\code\web\day07_response\src\cn\com\mryhl" />
-      <recent name="F:\code\web\day07_response\web" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.com.mryhl.e_case" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\code\web\day09_case\web\WEB-INF" />
@@ -174,14 +196,12 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080//day09_jsp_war_exploded" />
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
-        <artifact name="day09_jsp:war exploded">
+        <artifact name="day10_fileupload:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/day09_jsp_war_exploded" />
+            <option name="CONTEXT_PATH" value="/day10_fileupload_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -194,7 +214,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="25089" />
+        <option name="DEBUG_PORT" value="53058" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -244,7 +264,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="day09_jsp:war exploded" />
+          <artifact name="day10_fileupload:war exploded" />
         </option>
       </method>
     </configuration>
@@ -404,13 +424,23 @@
       <workItem from="1598446448596" duration="1487000" />
       <workItem from="1598487343786" duration="23577000" />
       <workItem from="1598520432158" duration="4816000" />
+      <workItem from="1598527548532" duration="1486000" />
+      <workItem from="1598573500529" duration="24851000" />
+      <workItem from="1598616266507" duration="3131000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="722" y="97" key="#Inspections" timestamp="1598576699745">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="722" y="97" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1598576699745" />
     <state x="722" y="94" key="#Project_Structure" timestamp="1598078490829">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -423,10 +453,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="657" y="105" key="#Web_Browsers/0.0.1536.864@0.0.1536.864" timestamp="1598060528356" />
-    <state x="271" y="143" width="942" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598522656720">
+    <state x="271" y="143" width="942" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598618620925">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="271" y="143" width="942" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1598522656720" />
+    <state x="271" y="143" width="942" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1598618620925" />
     <state x="756" y="301" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1597891935543">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -435,98 +465,110 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="580" y="263" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.0.1536.864@0.0.1536.864" timestamp="1597904766263" />
-    <state x="958" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1598511103830">
+    <state x="958" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1598616835297">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="958" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1598511103830" />
+    <state x="958" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1598616835297" />
+    <state x="851" y="207" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1598615099096">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="851" y="207" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1598615099096" />
     <state x="584" y="106" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1597891850865">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="584" y="106" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.864@0.0.1536.864" timestamp="1597891850865" />
-    <state x="654" y="183" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1598520100765">
+    <state x="654" y="183" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1598529508197">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="654" y="183" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.864@0.0.1536.864" timestamp="1598520100765" />
-    <state x="783" y="173" key="FileChooserDialogImpl" timestamp="1598520068900">
+    <state x="654" y="183" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.864@0.0.1536.864" timestamp="1598529508197" />
+    <state x="783" y="173" key="FileChooserDialogImpl" timestamp="1598529460962">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="783" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1598520068900" />
-    <state width="415" height="298" key="GridCell.Tab.0.bottom" timestamp="1598527369514">
+    <state x="783" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1598529460962" />
+    <state width="435" height="231" key="GridCell.Tab.0.bottom" timestamp="1598619432395">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598527369514" />
-    <state width="415" height="298" key="GridCell.Tab.0.center" timestamp="1598527369514">
+    <state width="435" height="231" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598619432395" />
+    <state width="435" height="231" key="GridCell.Tab.0.center" timestamp="1598619432395">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1598527369514" />
-    <state width="415" height="298" key="GridCell.Tab.0.left" timestamp="1598527369513">
+    <state width="435" height="231" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1598619432395" />
+    <state width="435" height="231" key="GridCell.Tab.0.left" timestamp="1598619432395">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1598527369513" />
-    <state width="415" height="298" key="GridCell.Tab.0.right" timestamp="1598527369514">
+    <state width="435" height="231" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1598619432395" />
+    <state width="435" height="231" key="GridCell.Tab.0.right" timestamp="1598619432395">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1598527369514" />
-    <state width="415" height="298" key="GridCell.Tab.1.bottom" timestamp="1598527369515">
+    <state width="435" height="231" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1598619432395" />
+    <state width="435" height="231" key="GridCell.Tab.1.bottom" timestamp="1598619432396">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598527369515" />
-    <state width="415" height="298" key="GridCell.Tab.1.center" timestamp="1598527369514">
+    <state width="435" height="231" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598619432396" />
+    <state width="435" height="231" key="GridCell.Tab.1.center" timestamp="1598619432396">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1598527369514" />
-    <state width="415" height="298" key="GridCell.Tab.1.left" timestamp="1598527369514">
+    <state width="435" height="231" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1598619432396" />
+    <state width="435" height="231" key="GridCell.Tab.1.left" timestamp="1598619432396">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1598527369514" />
-    <state width="415" height="298" key="GridCell.Tab.1.right" timestamp="1598527369514">
+    <state width="435" height="231" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1598619432396" />
+    <state width="435" height="231" key="GridCell.Tab.1.right" timestamp="1598619432396">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1598527369514" />
-    <state width="415" height="298" key="GridCell.Tab.2.bottom" timestamp="1598527369515">
+    <state width="435" height="231" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1598619432396" />
+    <state width="435" height="231" key="GridCell.Tab.2.bottom" timestamp="1598619432397">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598527369515" />
-    <state width="415" height="298" key="GridCell.Tab.2.center" timestamp="1598527369515">
+    <state width="435" height="231" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598619432397" />
+    <state width="435" height="231" key="GridCell.Tab.2.center" timestamp="1598619432396">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1598527369515" />
-    <state width="415" height="298" key="GridCell.Tab.2.left" timestamp="1598527369515">
+    <state width="435" height="231" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1598619432396" />
+    <state width="435" height="231" key="GridCell.Tab.2.left" timestamp="1598619432396">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1598527369515" />
-    <state width="415" height="298" key="GridCell.Tab.2.right" timestamp="1598527369515">
+    <state width="435" height="231" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1598619432396" />
+    <state width="435" height="231" key="GridCell.Tab.2.right" timestamp="1598619432397">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1598527369515" />
-    <state width="415" height="298" key="GridCell.Tab.3.bottom" timestamp="1598527369515">
+    <state width="435" height="231" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1598619432397" />
+    <state width="435" height="231" key="GridCell.Tab.3.bottom" timestamp="1598619432397">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598527369515" />
-    <state width="415" height="298" key="GridCell.Tab.3.center" timestamp="1598527369515">
+    <state width="435" height="231" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598619432397" />
+    <state width="435" height="231" key="GridCell.Tab.3.center" timestamp="1598619432397">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1598527369515" />
-    <state width="415" height="298" key="GridCell.Tab.3.left" timestamp="1598527369515">
+    <state width="435" height="231" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1598619432397" />
+    <state width="435" height="231" key="GridCell.Tab.3.left" timestamp="1598619432397">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1598527369515" />
-    <state width="415" height="298" key="GridCell.Tab.3.right" timestamp="1598527369515">
+    <state width="435" height="231" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1598619432397" />
+    <state width="435" height="231" key="GridCell.Tab.3.right" timestamp="1598619432397">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="415" height="298" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1598527369515" />
-    <state x="408" y="129" key="NewModule_or_Project.wizard" timestamp="1598520073906">
+    <state width="435" height="231" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1598619432397" />
+    <state x="408" y="129" key="NewModule_or_Project.wizard" timestamp="1598529466097">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="408" y="129" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1598520073906" />
-    <state x="425" y="68" width="996" height="721" key="SettingsEditor" timestamp="1598520911231">
+    <state x="408" y="129" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1598529466097" />
+    <state x="126" y="62" width="1349" height="721" key="SettingsEditor" timestamp="1598617656665">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="68" width="996" height="721" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1598520911231" />
-    <state x="759" y="76" width="753" height="552" key="new project wizard" timestamp="1598518077736">
+    <state x="126" y="62" width="1349" height="721" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1598617656665" />
+    <state x="765" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598595620484">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="759" y="76" width="753" height="552" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1598518077736" />
+    <state x="765" y="50" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1598595620484" />
+    <state x="642" y="171" width="894" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598609659772">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="642" y="171" width="894" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.864@0.0.1536.864" timestamp="1598609659772" />
+    <state x="759" y="76" width="753" height="552" key="new project wizard" timestamp="1598617855440">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="759" y="76" width="753" height="552" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1598617855440" />
     <state x="445" y="70" width="715" height="515" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1598446702780">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
