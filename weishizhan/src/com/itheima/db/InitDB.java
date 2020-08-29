@@ -77,7 +77,7 @@ public class InitDB {
         System.out.println("InitDB执行了...");
         // 获取最后一个长度
         int size = bookList.size();
-        book.setBookId(size+1);
+        book.setBookId(bookList.get(size-1).getBookId()+1);
         // 添加元素
         bookList.add(size,book);
     }
