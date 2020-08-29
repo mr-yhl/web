@@ -41,6 +41,7 @@ public class UploadServlet extends HttpServlet {
             List<FileItem> fileItemList = servletFileUpload.parseRequest(request);
 
             //  System.out.println(fileItemList.size());
+            //
             // 4. 遍历上传项集合
 
             for (FileItem fileItem : fileItemList) {
@@ -48,8 +49,8 @@ public class UploadServlet extends HttpServlet {
                 if (fileItem.isFormField()) {
                     // nickname
                     String name = fileItem.getFieldName();
-                    // lucy
-                    String value = fileItem.getString();
+                    // 解决中文乱码问题
+                    String value = fileItem.getString("utf-8");
                     System.out.println(name + "=" + value);
                 } else { // 上传文件项
                     // 获取原文件名

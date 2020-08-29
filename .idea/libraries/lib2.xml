@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/weishizhan/web/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/weishizhan/web/WEB-INF/lib/commons-io-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/weishizhan/web/WEB-INF/lib/jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/weishizhan/web/WEB-INF/lib/standard.jar!/" />
+      <root url="jar://$PROJECT_DIR$/weishizhan/web/WEB-INF/lib/commons-beanutils-1.8.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
