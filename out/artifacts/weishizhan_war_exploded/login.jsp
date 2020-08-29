@@ -37,7 +37,7 @@
     </script>
 </head>
 <body>
-<form action="${pageContext.request.contextPath}/login" method="post">
+<form action="${pageContext.request.contextPath}/LoginServlet" method="post">
     <table align="center">
         <tr>
             <td>用户名：</td><td><input type="text" name="username"></td>
@@ -47,7 +47,8 @@
         </tr>
         <tr>
             <td></td>
-            <td><input type="submit" value="登陆" disabled></td>
+            <%--<td><input type="submit" value="登陆" disabled></td>--%>
+            <td><input type="submit" value="登陆"></td>
         </tr>
         <tr>
             <td colspan="2" id="msg">${msg}</td>
