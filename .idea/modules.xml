@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/day10_filter/day10_filter.iml" filepath="$PROJECT_DIR$/day10_filter/day10_filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/day10_listener/day10_listener.iml" filepath="$PROJECT_DIR$/day10_listener/day10_listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/day11_case/day11_case.iml" filepath="$PROJECT_DIR$/day11_case/day11_case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15_case/day15_case.iml" filepath="$PROJECT_DIR$/day15_case/day15_case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15_jdbc/day15_jdbc.iml" filepath="$PROJECT_DIR$/day15_jdbc/day15_jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/weishizhan/weishizhan.iml" filepath="$PROJECT_DIR$/weishizhan/weishizhan.iml" />
     </modules>
   </component>
