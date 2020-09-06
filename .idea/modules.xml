@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/day09_jsp/day09_jsp.iml" filepath="$PROJECT_DIR$/day09_jsp/day09_jsp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day10_fileupload/day10_fileupload.iml" filepath="$PROJECT_DIR$/day10_fileupload/day10_fileupload.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day10_filter/day10_filter.iml" filepath="$PROJECT_DIR$/day10_filter/day10_filter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day10_listener/day10_listener.iml" filepath="$PROJECT_DIR$/day10_listener/day10_listener.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day11_case/day11_case.iml" filepath="$PROJECT_DIR$/day11_case/day11_case.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day15_case/day15_case.iml" filepath="$PROJECT_DIR$/day15_case/day15_case.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day15_jdbc/day15_jdbc.iml" filepath="$PROJECT_DIR$/day15_jdbc/day15_jdbc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/weishizhan/weishizhan.iml" filepath="$PROJECT_DIR$/weishizhan/weishizhan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16_mybatis_condition/day16_mybatis_condition.iml" filepath="$PROJECT_DIR$/day16_mybatis_condition/day16_mybatis_condition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16_mybatis_dao_impl/day16_mybatis_dao_impl.iml" filepath="$PROJECT_DIR$/day16_mybatis_dao_impl/day16_mybatis_dao_impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16_mybatis_dao_proxy/day16_mybatis_dao_proxy.iml" filepath="$PROJECT_DIR$/day16_mybatis_dao_proxy/day16_mybatis_dao_proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16_mybatis_quick/day16_mybatis_quick.iml" filepath="$PROJECT_DIR$/day16_mybatis_quick/day16_mybatis_quick.iml" />
     </modules>
   </component>
 </project>

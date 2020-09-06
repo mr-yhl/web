@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 引入约束文件 -->
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--引入外置的properties 文件-->
+    <properties resource="jdbc.properties"></properties>
+
+    <!--java类别别名设置-->
+    <typeAliases>
+        <!--单个类型别名定义-->
+        <!--<typeAlias type="cn.com.mryhl.domain.User" alias="User"></typeAlias>-->
+        <!--把当前包内的所有java类型定义了别名，别名就是类名-->
+        <package name="cn.com.mryhl.domain.User"/>
+    </typeAliases>
+    <!-- 配置数据库环境文件 -->
+    <!-- default 引入的数据库-->
+    <environments default="mysql">
+        <!-- mysql环境 -->
+        <environment id="mysql">
+            <!--事物管理器 固定格式-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- 数据源: 使用内置的连接池 -->
+            <dataSource type="POOLED">
+                <!--
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis_db"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+                -->
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 加载映射文件 -->
+    <mappers>
+        <mapper resource="cn/com/mryhl/mapper/UserMapper.xml"></mapper>
+    </mappers>
+</configuration>

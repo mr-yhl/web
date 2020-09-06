@@ -140,6 +140,7 @@ dayXX_xxx_xxx为文件夹下是代码也有笔记存在,根据readme文档的介
 + 用户列表查询
 
 ## [day10_filter](https://github.com/mr-yhl/web/tree/master/day10_filter)  [day10_listener](https://github.com/mr-yhl/web/tree/master/day10_listener)  [day10_fileupload](https://github.com/mr-yhl/web/tree/master/day10_fileupload)
+
 今日内容主要是学习了过滤器和监听器,练习了文件上传
 + web的三大组件
   + servlet：控制器
@@ -147,3 +148,17 @@ dayXX_xxx_xxx为文件夹下是代码也有笔记存在,根据readme文档的介
   + listener：监听器【了解】	
 + 文件上传（理解思想，了解代码...）
 
+
+
+## [day15_case](https://github.com/mr-yhl/web/tree/master/day15_case)  [day15_jdbc](https://github.com/mr-yhl/web/tree/master/day15_jdbc)
+
++ jdbc基础
+  + 通过java代码实现对数据的增删改查
++ 用户登录（BUG）
++ PreparedStatement（重点）
++ 连接池（容器）
+  + Druid：德鲁伊
+
+## [day16_mybatis_quick](https://github.com/mr-yhl/web/tree/master/day16_mybatis_quick)  [day16_mybatis_dao_impl](https://github.com/mr-yhl/web/tree/master/day16_mybatis_dao_impl)  [day16_mybatis_dao_proxy](https://github.com/mr-yhl/web/tree/master/day16_mybatis_dao_proxy)  [day16_mybatis_condition](https://github.com/mr-yhl/web/tree/master/day16_mybatis_condition)
+
+通过mybatis框架，实现对单表的增删改查
