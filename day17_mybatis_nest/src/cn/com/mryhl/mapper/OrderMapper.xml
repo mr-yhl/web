@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--引入约束文件,DTD约束头-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--根标签  命名空间,与下面语句的id一起组成查询的标识-->
+<mapper namespace="cn.com.mryhl.mapper.OrderMapper">
+
+    <!-- 一对一查询手动封装-->
+    <resultMap id="orderWithUserMap" type="cn.com.mryhl.domain.Order">
+        <id column="id" property="id"></id>
+        <result column="ordertime" property="ordertime"></result>
+        <result column="money" property="money"></result>
+        <!--
+            一对一嵌套
+             column="uid" 就是订单表的查询结果 uid作为条件
+             select="cn.com.mryhl.mapper.UserMapper.findById" 去调用（UserMapper中findById方法）实现单表查询
+             最后通过association组合嵌套，封装到 Order实体中user属性汇总
+        -->
+        <association fetchType="eager" property="user" column="uid" select="cn.com.mryhl.mapper.UserMapper.findById"></association>
+    </resultMap>
+    <!--一对一嵌套查询-->
+    <select id="findByIdWithUser" parameterType="int" resultMap="orderWithUserMap">
+        select * from orders where id = #{id}
+    </select>
+
+    <!--一对多-->
+    <select id="findByUid" parameterType="int" resultType="cn.com.mryhl.domain.Order">
+        select * from orders where uid = #{uid}
+    </select>
+
+</mapper>

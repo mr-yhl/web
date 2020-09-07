@@ -162,3 +162,13 @@ dayXX_xxx_xxx为文件夹下是代码也有笔记存在,根据readme文档的介
 ## [day16_mybatis_quick](https://github.com/mr-yhl/web/tree/master/day16_mybatis_quick)  [day16_mybatis_dao_impl](https://github.com/mr-yhl/web/tree/master/day16_mybatis_dao_impl)  [day16_mybatis_dao_proxy](https://github.com/mr-yhl/web/tree/master/day16_mybatis_dao_proxy)  [day16_mybatis_condition](https://github.com/mr-yhl/web/tree/master/day16_mybatis_condition)
 
 通过mybatis框架，实现对单表的增删改查
+
+## [day17_mybatis_dynamic_sql](https://github.com/mr-yhl/web/tree/master/day17_mybatis_dynamic_sql)  [day17_mybatis_multi](https://github.com/mr-yhl/web/tree/master/day17_mybatis_multi)  [day17_mybatis_nest](https://github.com/mr-yhl/web/tree/master/day17_mybatis_nest) 
+
++ 动态sql
++ 多表关联查询
++ 多表嵌套查询
++ 延迟（懒）加载【了解】
++ 内置缓存【了解】
+    + 一级缓存
+    + 二级缓存
