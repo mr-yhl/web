@@ -1,9 +1,11 @@
 package cn.com.mryhl.domain;
 
+import java.io.Serializable;
+
 /**
  * 角色实体
  */
-public class Role {
+public class Role implements Serializable {
     private Integer id;
     private String role_name;
     private String role_desc;

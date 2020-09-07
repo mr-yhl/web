@@ -11,63 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b8f99f9-6d77-4d63-9626-d1f03931897d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/day17_mybatis_dynamic_sql.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/lib/mybatis-3.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/src/cn/com/mryhl/domain/QueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/src/cn/com/mryhl/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/src/cn/com/mryhl/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/src/cn/com/mryhl/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/src/cn/com/mryhl/test/UserMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/src/cn/com/mryhl/util/MyBatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/src/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/day17_mybatis_multi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/lib/mybatis-3.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/cn/com/mryhl/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/cn/com/mryhl/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/cn/com/mryhl/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/cn/com/mryhl/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/cn/com/mryhl/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/cn/com/mryhl/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/cn/com/mryhl/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/cn/com/mryhl/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/cn/com/mryhl/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/cn/com/mryhl/test/BaseMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/cn/com/mryhl/test/OrderMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/cn/com/mryhl/test/UserMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/cn/com/mryhl/util/MyBatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_multi/src/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/day17_mybatis_nest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/lib/mybatis-3.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/test/BaseMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/test/OrderMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/test/UserMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/util/MyBatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/day17_mybatis_nest/src/cn/com/mryhl/domain/Role.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +81,10 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="MyBatisLogPluginindexNum" value="25" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -149,7 +98,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -178,7 +127,7 @@
       <recent name="F:\code\web\day04_jquery" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserMapperTest.test04">
+  <component name="RunManager" selected="JUnit.UserMapperTest.test02">
     <configuration name="OrderMapperTest.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day17_mybatis_nest" />
       <extension name="coverage">
@@ -444,18 +393,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
       <item itemvalue="JUnit.OrderMapperTest.test01 (1)" />
       <item itemvalue="JUnit.UserMapperTest.test01" />
       <item itemvalue="JUnit.UserMapperTest.test02" />
       <item itemvalue="JUnit.UserMapperTest.test03" />
       <item itemvalue="JUnit.UserMapperTest.test04" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserMapperTest.test02" />
         <item itemvalue="JUnit.UserMapperTest.test04" />
         <item itemvalue="JUnit.UserMapperTest.test03" />
-        <item itemvalue="JUnit.UserMapperTest.test02" />
         <item itemvalue="JUnit.UserMapperTest.test01" />
         <item itemvalue="JUnit.OrderMapperTest.test01 (1)" />
       </list>
@@ -569,6 +518,8 @@
       <workItem from="1599354717429" duration="17318000" />
       <workItem from="1599437746193" duration="9329000" />
       <workItem from="1599449018309" duration="20998000" />
+      <workItem from="1599483426802" duration="546000" />
+      <workItem from="1599484021161" duration="1302000" />
     </task>
     <servers />
   </component>
@@ -635,22 +586,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="783" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1599461154321" />
-    <state width="642" height="275" key="GridCell.Tab.0.bottom" timestamp="1599482408000">
+    <state x="361" y="90" key="GrepConsoleSettings" timestamp="1599484683594">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="642" height="275" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1599482408000" />
-    <state width="642" height="275" key="GridCell.Tab.0.center" timestamp="1599482408000">
+    <state x="361" y="90" key="GrepConsoleSettings/0.0.1536.864@0.0.1536.864" timestamp="1599484683594" />
+    <state width="1204" height="328" key="GridCell.Tab.0.bottom" timestamp="1599485324935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="642" height="275" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1599482408000" />
-    <state width="642" height="275" key="GridCell.Tab.0.left" timestamp="1599482408000">
+    <state width="1204" height="328" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1599485324935" />
+    <state width="1204" height="328" key="GridCell.Tab.0.center" timestamp="1599485324934">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="642" height="275" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1599482408000" />
-    <state width="642" height="275" key="GridCell.Tab.0.right" timestamp="1599482408000">
+    <state width="1204" height="328" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1599485324934" />
+    <state width="1204" height="328" key="GridCell.Tab.0.left" timestamp="1599485324934">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="642" height="275" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1599482408000" />
+    <state width="1204" height="328" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1599485324934" />
+    <state width="1204" height="328" key="GridCell.Tab.0.right" timestamp="1599485324935">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1204" height="328" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1599485324935" />
     <state width="642" height="275" key="GridCell.Tab.1.bottom" timestamp="1599482408001">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -703,10 +658,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="408" y="129" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1599461161606" />
-    <state x="113" y="62" width="1349" height="721" key="SettingsEditor" timestamp="1599459154230">
+    <state x="113" y="62" width="1349" height="721" key="SettingsEditor" timestamp="1599484936815">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="113" y="62" width="1349" height="721" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1599459154230" />
+    <state x="113" y="62" width="1349" height="721" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1599484936815" />
     <state x="870" y="328" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599461203808">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
