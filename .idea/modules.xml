@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/day16_mybatis_condition/day16_mybatis_condition.iml" filepath="$PROJECT_DIR$/day16_mybatis_condition/day16_mybatis_condition.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day16_mybatis_dao_impl/day16_mybatis_dao_impl.iml" filepath="$PROJECT_DIR$/day16_mybatis_dao_impl/day16_mybatis_dao_impl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day16_mybatis_dao_proxy/day16_mybatis_dao_proxy.iml" filepath="$PROJECT_DIR$/day16_mybatis_dao_proxy/day16_mybatis_dao_proxy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day16_mybatis_quick/day16_mybatis_quick.iml" filepath="$PROJECT_DIR$/day16_mybatis_quick/day16_mybatis_quick.iml" />
       <module fileurl="file://$PROJECT_DIR$/day17_mybatis_dynamic_sql/day17_mybatis_dynamic_sql.iml" filepath="$PROJECT_DIR$/day17_mybatis_dynamic_sql/day17_mybatis_dynamic_sql.iml" />
       <module fileurl="file://$PROJECT_DIR$/day17_mybatis_multi/day17_mybatis_multi.iml" filepath="$PROJECT_DIR$/day17_mybatis_multi/day17_mybatis_multi.iml" />
       <module fileurl="file://$PROJECT_DIR$/day17_mybatis_nest/day17_mybatis_nest.iml" filepath="$PROJECT_DIR$/day17_mybatis_nest/day17_mybatis_nest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day18-case/day18-case.iml" filepath="$PROJECT_DIR$/day18-case/day18-case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day18_anno/day18_anno.iml" filepath="$PROJECT_DIR$/day18_anno/day18_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day18_anno_nest/day18_anno_nest.iml" filepath="$PROJECT_DIR$/day18_anno_nest/day18_anno_nest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day18_config/day18_config.iml" filepath="$PROJECT_DIR$/day18_config/day18_config.iml" />
     </modules>
   </component>
 </project>

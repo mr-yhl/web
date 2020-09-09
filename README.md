@@ -172,3 +172,13 @@ dayXX_xxx_xxx为文件夹下是代码也有笔记存在,根据readme文档的介
 + 内置缓存【了解】
     + 一级缓存
     + 二级缓存
+    
+## [day18_config](https://github.com/mr-yhl/web/tree/master/day18_config) [day18_anno](https://github.com/mr-yhl/web/tree/master/day18_anno) [day18_anno_nest](https://github.com/mr-yhl/web/tree/master/day18_anno_nest) [day18-case](https://github.com/mr-yhl/web/tree/master/day18-case)
++ 回顾核心配置文件标签
+
++ mybatis注解开发
+  + 单表【掌握】
+  + 多表【了解】
+
++ mybatis案例练习
+  + 基于B/S架构，做一个查询（分页）
